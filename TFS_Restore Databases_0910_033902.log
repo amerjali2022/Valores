@@ -1,0 +1,1374 @@
+[Info   @20:39:02.862] ====================================================================
+[Info   @20:39:02.863] Azure DevOps Server Administration Log
+[Info   @20:39:02.863] Version  : 19.205.32728.1
+[Info   @20:39:02.863] DateTime : 09/09/2022 20:39:02
+[Info   @20:39:02.863] Type     : Restore Databases
+[Info   @20:39:02.863] User     : MINHACIENDA\s-tfssvc03
+[Info   @20:39:02.863] Machine  : MH-PRTFSSA06
+[Info   @20:39:02.864] System   : Microsoft Windows NT 10.0.20348.0 (AMD64)
+[Info   @20:39:02.864] ====================================================================
+[Info   @20:39:02.867] IIS Feature value: NetFxExtensibility45=0
+[Info   @20:39:02.867] Feature NetFxExtensibility45 is not registered.
+[Info   @20:39:02.867] IIS Feature value: ASPNET45=0
+[Info   @20:39:02.873] Feature ASPNET45 is not registered.
+[Info   @20:39:02.874] IIS Feature value: StaticContent=1
+[Info   @20:39:02.874] IIS Feature value: ManagementConsole=1
+[Info   @20:39:02.874] IIS Feature value: ManagementScriptingTools=0
+[Info   @20:39:02.874] Feature ManagementScriptingTools is not registered.
+[Info   @20:39:02.874] IIS Feature value: WindowsAuthentication=0
+[Info   @20:39:02.874] Feature WindowsAuthentication is not registered.
+[Info   @20:39:02.874] IIS Feature value: HttpCompressionStatic=1
+[Info   @20:39:02.874] IIS Feature value: HttpCompressionDynamic=0
+[Info   @20:39:02.874] Feature HttpCompressionDynamic is not registered.
+[Info   @20:39:02.874] IIS Feature value: WebSockets=0
+[Info   @20:39:02.874] Feature WebSockets is not registered.
+[Info   @20:39:07.876] Scanning environment for Java details.
+[Info   @20:39:07.876] JAVA_HOME environment variable is not set.
+[Info   @20:39:07.878] Environment: BaseEnvironment
+	Setup: 
+		InstallPath: C:\Program Files\Azure DevOps Server 2022\
+		ToolsPath: C:\Program Files\Azure DevOps Server 2022\Tools
+		ApplicationTierPath: C:\Program Files\Azure DevOps Server 2022\Application Tier
+		BuildTierPath: C:\Program Files\Azure DevOps Server 2022\Tools
+		SearchTierPath: C:\Program Files\Azure DevOps Server 2022\Search
+		ProxyPath: C:\Program Files\Azure DevOps Server 2022\Version Control Proxy
+		SetupUser: MINHACIENDA\s-tfssvc03
+		WebServicePath: C:\Program Files\Azure DevOps Server 2022\Application Tier\Web Services
+		JobAgentPath: C:\Program Files\Azure DevOps Server 2022\Application Tier\TFSJobAgent
+		MessageQueuePath: C:\Program Files\Azure DevOps Server 2022\Application Tier\Message Queue
+		SshServicePath: C:\Program Files\Azure DevOps Server 2022\Application Tier\Web Services\bin
+		SshServiceExePath: C:\Program Files\Azure DevOps Server 2022\Application Tier\Web Services\bin\TeamFoundationSshService.exe
+		GvfsServicePath: C:\Program Files\Azure DevOps Server 2022\Version Control Proxy\Web Services\bin
+		SystemTfsTemp: C:\Windows\Temp\TFSTemp
+	OS: 
+		MachineName: MH-PRTFSSA06
+		HostName: MH-PRTFSSA06
+		IsClientOS: False
+		IsServerOS: True
+		IsDomainController: False
+		IsMachineInWorkgroup: False
+		IsMachineInDomain: True
+		IsHomeEdition: False
+		IsUnsupportedEdition: False
+		Version: Server2022
+		MajorVersion: 10
+		MinorVersion: 0
+		ProcessorCount: 2
+		ServicePackMajor: 0
+		ServicePackMinor: 0
+		IsOSPostTfsRelease: False
+		Edition: Standard
+		VisibleMemoryMB: 16383
+		AdjustedMemoryGB: 16
+	Iis: 
+		IsInstalled: True
+		PreviouslyFailedConfig: False
+		RequiredIisFeaturesInstalled: False
+		IsSniSupported: True
+		IsWebHostingStoreAvailable: True
+		OS: 
+			MachineName: MH-PRTFSSA06
+			HostName: MH-PRTFSSA06
+			IsClientOS: False
+			IsServerOS: True
+			IsDomainController: False
+			IsMachineInWorkgroup: False
+			IsMachineInDomain: True
+			IsHomeEdition: False
+			IsUnsupportedEdition: False
+			Version: Server2022
+			MajorVersion: 10
+			MinorVersion: 0
+			ProcessorCount: 2
+			ServicePackMajor: 0
+			ServicePackMinor: 0
+			IsOSPostTfsRelease: False
+			Edition: Standard
+			VisibleMemoryMB: 16383
+			AdjustedMemoryGB: 16
+	Sql: 
+	PowerTools: 
+		IsBackupToolConfigured: False
+	Java: 
+		IsJavaInstalled: False
+		IsServerVersion: False
+		Is64BitVersion: False
+		JavaHome: 
+		JavaVersion: 0.0.0.0
+
+[Info   @20:40:25.295] IIS Feature value: NetFxExtensibility45=0
+[Info   @20:40:25.295] Feature NetFxExtensibility45 is not registered.
+[Info   @20:40:25.295] IIS Feature value: ASPNET45=0
+[Info   @20:40:25.295] Feature ASPNET45 is not registered.
+[Info   @20:40:25.295] IIS Feature value: StaticContent=1
+[Info   @20:40:25.295] IIS Feature value: ManagementConsole=1
+[Info   @20:40:25.295] IIS Feature value: ManagementScriptingTools=0
+[Info   @20:40:25.295] Feature ManagementScriptingTools is not registered.
+[Info   @20:40:25.296] IIS Feature value: WindowsAuthentication=0
+[Info   @20:40:25.296] Feature WindowsAuthentication is not registered.
+[Info   @20:40:25.296] IIS Feature value: HttpCompressionStatic=1
+[Info   @20:40:25.296] IIS Feature value: HttpCompressionDynamic=0
+[Info   @20:40:25.296] Feature HttpCompressionDynamic is not registered.
+[Info   @20:40:25.296] IIS Feature value: WebSockets=0
+[Info   @20:40:25.296] Feature WebSockets is not registered.
+[Info   @20:40:30.304] Scanning environment for Java details.
+[Info   @20:40:30.304] JAVA_HOME environment variable is not set.
+[Info   @20:40:30.304] 
+[Info   @20:40:30.304] +-+-+-+-+-| RestoreDatabasesPlan::GenerateVerifyPlan |+-+-+-+-+-
+[Info   @20:40:30.316] 
+[Info   @20:40:30.316] -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+[Info   @20:40:30.316] Activity.ExecutePlan
+[Info   @20:40:30.316] -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+[Info   @20:40:30.316] - ContainerTask (ContainerNode) : Restore Databases
+
+	- ContainerTask (ProgressNode) : User Inputs
+
+		- VerifyInputViolations (VerifyNode) : Verifying that all the inputs are valid and there are no violations
+			SevereWarningPrompt = null
+
+	- ContainerTask (ProgressNode) : SQL Service Accounts
+
+		- VerifySqlCanAccessBackupPath (VerifyNode) : Verifying SQL service account can access backup path
+			SevereWarningPrompt = null
+
+	- ContainerTask (ProgressNode) : No Conflicting Databases
+
+		- VerifyNoConflictingDatabases (VerifyNode) : Verifying restoring databases will not conflict with existing databases
+			SevereWarningPrompt = null
+
+		- VerifyNoConflictingDatabases (VerifyNode) : Verifying restoring databases will not conflict with existing databases
+			SevereWarningPrompt = null
+
+		- VerifyNoConflictingDatabases (VerifyNode) : Verifying restoring databases will not conflict with existing databases
+			SevereWarningPrompt = null
+
+		- VerifyNoConflictingDatabases (VerifyNode) : Verifying restoring databases will not conflict with existing databases
+			SevereWarningPrompt = null
+
+		- VerifyNoConflictingDatabases (VerifyNode) : Verifying restoring databases will not conflict with existing databases
+			SevereWarningPrompt = null
+
+		- VerifyNoConflictingDatabases (VerifyNode) : Verifying restoring databases will not conflict with existing databases
+			SevereWarningPrompt = null
+
+		- VerifyNoConflictingDatabases (VerifyNode) : Verifying restoring databases will not conflict with existing databases
+			SevereWarningPrompt = null
+
+		- VerifyNoConflictingDatabases (VerifyNode) : Verifying restoring databases will not conflict with existing databases
+			SevereWarningPrompt = null
+
+	- ContainerTask (ProgressNode) : System Verification
+
+		- VerifyBackupPath (VerifyNode) : Verifying the backup path exists and is a network path
+			SevereWarningPrompt = null
+
+		- VerifyDiskFreeSpace (VerifyNode) : Verifying that the backup path has free space
+			SevereWarningPrompt = null
+
+		- VerifyContainerNode (VerifyNode) : A generic container node that does not contribute to results
+			SevereWarningPrompt = null
+
+		- VerifyBackupsExist (VerifyNode) : Verifying the backup files exist
+			SevereWarningPrompt = null
+
+
+[Info   @20:40:30.316] 
+[Info   @20:40:30.316] +-+-+-+-+-| Execute |+-+-+-+-+-
+[Info   @20:40:30.316] 
+[Info   @20:40:30.316] +-+-+-+-+-| Review Settings |+-+-+-+-+-
+[Info   @20:40:30.316] 
+Summary Sections
+
+	Section: Backup Set Details
+		Backup Path: \\MH-CLBDSQLSA42\BackupMHCP
+		Backup Set Time: 9/9/2022 8:39:41 PM
+		Backup Size: 344,315 MB
+	Section: Reporting Instance
+		Reporting Instance: MH-PRBDSA07
+		Reporting Encryption Key File: RSKey9861355681665996020.snk
+
+[Info   @20:40:30.316] 
+[Info   @20:40:30.316] +-+-+-+-+-| Environment |+-+-+-+-+-
+[Info   @20:40:30.317] Environment: BaseEnvironment
+	Setup: 
+		InstallPath: C:\Program Files\Azure DevOps Server 2022\
+		ToolsPath: C:\Program Files\Azure DevOps Server 2022\Tools
+		ApplicationTierPath: C:\Program Files\Azure DevOps Server 2022\Application Tier
+		BuildTierPath: C:\Program Files\Azure DevOps Server 2022\Tools
+		SearchTierPath: C:\Program Files\Azure DevOps Server 2022\Search
+		ProxyPath: C:\Program Files\Azure DevOps Server 2022\Version Control Proxy
+		SetupUser: MINHACIENDA\s-tfssvc03
+		WebServicePath: C:\Program Files\Azure DevOps Server 2022\Application Tier\Web Services
+		JobAgentPath: C:\Program Files\Azure DevOps Server 2022\Application Tier\TFSJobAgent
+		MessageQueuePath: C:\Program Files\Azure DevOps Server 2022\Application Tier\Message Queue
+		SshServicePath: C:\Program Files\Azure DevOps Server 2022\Application Tier\Web Services\bin
+		SshServiceExePath: C:\Program Files\Azure DevOps Server 2022\Application Tier\Web Services\bin\TeamFoundationSshService.exe
+		GvfsServicePath: C:\Program Files\Azure DevOps Server 2022\Version Control Proxy\Web Services\bin
+		SystemTfsTemp: C:\Windows\Temp\TFSTemp
+	OS: 
+		MachineName: MH-PRTFSSA06
+		HostName: MH-PRTFSSA06
+		IsClientOS: False
+		IsServerOS: True
+		IsDomainController: False
+		IsMachineInWorkgroup: False
+		IsMachineInDomain: True
+		IsHomeEdition: False
+		IsUnsupportedEdition: False
+		Version: Server2022
+		MajorVersion: 10
+		MinorVersion: 0
+		ProcessorCount: 2
+		ServicePackMajor: 0
+		ServicePackMinor: 0
+		IsOSPostTfsRelease: False
+		Edition: Standard
+		VisibleMemoryMB: 16383
+		AdjustedMemoryGB: 16
+	Iis: 
+		IsInstalled: True
+		PreviouslyFailedConfig: False
+		RequiredIisFeaturesInstalled: False
+		IsSniSupported: True
+		IsWebHostingStoreAvailable: True
+		OS: 
+			MachineName: MH-PRTFSSA06
+			HostName: MH-PRTFSSA06
+			IsClientOS: False
+			IsServerOS: True
+			IsDomainController: False
+			IsMachineInWorkgroup: False
+			IsMachineInDomain: True
+			IsHomeEdition: False
+			IsUnsupportedEdition: False
+			Version: Server2022
+			MajorVersion: 10
+			MinorVersion: 0
+			ProcessorCount: 2
+			ServicePackMajor: 0
+			ServicePackMinor: 0
+			IsOSPostTfsRelease: False
+			Edition: Standard
+			VisibleMemoryMB: 16383
+			AdjustedMemoryGB: 16
+	Sql: 
+	PowerTools: 
+		IsBackupToolConfigured: False
+	Java: 
+		IsJavaInstalled: False
+		IsServerVersion: False
+		Is64BitVersion: False
+		JavaHome: 
+		JavaVersion: 0.0.0.0
+
+[Info   @20:40:30.317] 
+[Info   @20:40:30.317] +-+-+-+-+-| Configuration Plan |+-+-+-+-+-
+[Info   @20:40:30.317] - ContainerTask (ContainerNode) : Restore Databases
+
+	- ContainerTask (ProgressNode) : User Inputs
+
+		- VerifyInputViolations (VerifyNode) : Verifying that all the inputs are valid and there are no violations
+			SevereWarningPrompt = null
+
+	- ContainerTask (ProgressNode) : SQL Service Accounts
+
+		- VerifySqlCanAccessBackupPath (VerifyNode) : Verifying SQL service account can access backup path
+			SevereWarningPrompt = null
+
+	- ContainerTask (ProgressNode) : No Conflicting Databases
+
+		- VerifyNoConflictingDatabases (VerifyNode) : Verifying restoring databases will not conflict with existing databases
+			SevereWarningPrompt = null
+
+		- VerifyNoConflictingDatabases (VerifyNode) : Verifying restoring databases will not conflict with existing databases
+			SevereWarningPrompt = null
+
+		- VerifyNoConflictingDatabases (VerifyNode) : Verifying restoring databases will not conflict with existing databases
+			SevereWarningPrompt = null
+
+		- VerifyNoConflictingDatabases (VerifyNode) : Verifying restoring databases will not conflict with existing databases
+			SevereWarningPrompt = null
+
+		- VerifyNoConflictingDatabases (VerifyNode) : Verifying restoring databases will not conflict with existing databases
+			SevereWarningPrompt = null
+
+		- VerifyNoConflictingDatabases (VerifyNode) : Verifying restoring databases will not conflict with existing databases
+			SevereWarningPrompt = null
+
+		- VerifyNoConflictingDatabases (VerifyNode) : Verifying restoring databases will not conflict with existing databases
+			SevereWarningPrompt = null
+
+		- VerifyNoConflictingDatabases (VerifyNode) : Verifying restoring databases will not conflict with existing databases
+			SevereWarningPrompt = null
+
+	- ContainerTask (ProgressNode) : System Verification
+
+		- VerifyBackupPath (VerifyNode) : Verifying the backup path exists and is a network path
+			SevereWarningPrompt = null
+
+		- VerifyDiskFreeSpace (VerifyNode) : Verifying that the backup path has free space
+			SevereWarningPrompt = null
+
+		- VerifyContainerNode (VerifyNode) : A generic container node that does not contribute to results
+			SevereWarningPrompt = null
+
+		- VerifyBackupsExist (VerifyNode) : Verifying the backup files exist
+			SevereWarningPrompt = null
+
+
+[Info   @20:40:30.317] 
+[Info   @20:40:30.317] +-+-+-+-+-| Running Restore Databases: Restore Databases |+-+-+-+-+-
+[Info   @20:40:30.322] 
+[Info   @20:40:30.322] +-+-+-+-+-| Restore Databases |+-+-+-+-+-
+[Info   @20:40:30.322] Starting Node: CONTAINER
+[Info   @20:40:30.322] NodePath : Container
+[Info   @20:40:30.322] Node returned: Ignore
+[Info   @20:40:30.322] Completed Restore Databases: Ignore
+[Info   @20:40:30.322] -----------------------------------------------------
+[Info   @20:40:30.323] 
+[Info   @20:40:30.323] +-+-+-+-+-| Running User Inputs: User Inputs |+-+-+-+-+-
+[Info   @20:40:30.323] 
+[Info   @20:40:30.323] +-+-+-+-+-| User Inputs |+-+-+-+-+-
+[Info   @20:40:30.323] Starting Node: CONTAINER
+[Info   @20:40:30.323] NodePath : Container/Progress
+[Info   @20:40:30.323] Node returned: Ignore
+[Info   @20:40:30.323] Completed User Inputs: Ignore
+[Info   @20:40:30.323] -----------------------------------------------------
+[Info   @20:40:30.323] 
+[Info   @20:40:30.323] +-+-+-+-+-| Running Verify Inputs: Verifying that all the inputs are valid and there are no violations |+-+-+-+-+-
+[Info   @20:40:30.324] 
+[Info   @20:40:30.324] +-+-+-+-+-| Verifying that all the inputs are valid and there are no violations |+-+-+-+-+-
+[Info   @20:40:30.324] Starting Node: VINPUTS
+[Info   @20:40:30.324] NodePath : Container/Progress/VINPUTS
+[Info   @20:40:30.324] Node returned: Success
+[Info   @20:40:30.324] Completed Verify Inputs: Success
+[Info   @20:40:30.324] -----------------------------------------------------
+[Info   @20:40:30.326] 
+[Info   @20:40:30.326] +-+-+-+-+-| Running SQL Service Accounts: SQL Service Accounts |+-+-+-+-+-
+[Info   @20:40:30.326] 
+[Info   @20:40:30.326] +-+-+-+-+-| SQL Service Accounts |+-+-+-+-+-
+[Info   @20:40:30.326] Starting Node: CONTAINER
+[Info   @20:40:30.326] NodePath : Container/Progress
+[Info   @20:40:30.326] Node returned: Ignore
+[Info   @20:40:30.326] Completed SQL Service Accounts: Ignore
+[Info   @20:40:30.326] -----------------------------------------------------
+[Info   @20:40:30.326] 
+[Info   @20:40:30.326] +-+-+-+-+-| Running VerifySqlServiceAccountCanBeGrantedPermission: Verifying SQL service account can access backup path |+-+-+-+-+-
+[Info   @20:40:30.327] 
+[Info   @20:40:30.327] +-+-+-+-+-| Verifying SQL service account can access backup path |+-+-+-+-+-
+[Info   @20:40:30.327] Starting Node: VSqlCanAccessBackupPath
+[Info   @20:40:30.327] NodePath : Container/Progress/VSqlCanAccessBackupPath
+[Info   @20:40:30.547] Verify that account 'MINHACIENDA\s-sql1404' is not local service or local system.
+[Info   @20:40:30.549] Node returned: Success
+[Info   @20:40:30.549] Completed VerifySqlServiceAccountCanBeGrantedPermission: Success
+[Info   @20:40:30.549] -----------------------------------------------------
+[Info   @20:40:30.550] 
+[Info   @20:40:30.550] +-+-+-+-+-| Running No Conflicting Databases: No Conflicting Databases |+-+-+-+-+-
+[Info   @20:40:30.552] 
+[Info   @20:40:30.552] +-+-+-+-+-| No Conflicting Databases |+-+-+-+-+-
+[Info   @20:40:30.552] Starting Node: CONTAINER
+[Info   @20:40:30.552] NodePath : Container/Progress
+[Info   @20:40:30.552] Node returned: Ignore
+[Info   @20:40:30.552] Completed No Conflicting Databases: Ignore
+[Info   @20:40:30.552] -----------------------------------------------------
+[Info   @20:40:30.552] 
+[Info   @20:40:30.552] +-+-+-+-+-| Running VerifyNoExistingDatabases: Verifying restoring databases will not conflict with existing databases |+-+-+-+-+-
+[Info   @20:40:30.552] 
+[Info   @20:40:30.552] +-+-+-+-+-| Verifying restoring databases will not conflict with existing databases |+-+-+-+-+-
+[Info   @20:40:30.552] Starting Node: DATABASECONFLICTS
+[Info   @20:40:30.552] NodePath : Container/Progress/DATABASECONFLICTS
+[Info   @20:40:30.578] Node returned: Success
+[Info   @20:40:30.578] Completed VerifyNoExistingDatabases: Success
+[Info   @20:40:30.578] -----------------------------------------------------
+[Info   @20:40:30.578] 
+[Info   @20:40:30.578] +-+-+-+-+-| Running VerifyNoExistingDatabases: Verifying restoring databases will not conflict with existing databases |+-+-+-+-+-
+[Info   @20:40:30.578] 
+[Info   @20:40:30.578] +-+-+-+-+-| Verifying restoring databases will not conflict with existing databases |+-+-+-+-+-
+[Info   @20:40:30.578] Starting Node: DATABASECONFLICTS
+[Info   @20:40:30.578] NodePath : Container/Progress/DATABASECONFLICTS
+[Info   @20:40:30.579] Node returned: Success
+[Info   @20:40:30.579] Completed VerifyNoExistingDatabases: Success
+[Info   @20:40:30.579] -----------------------------------------------------
+[Info   @20:40:30.579] 
+[Info   @20:40:30.579] +-+-+-+-+-| Running VerifyNoExistingDatabases: Verifying restoring databases will not conflict with existing databases |+-+-+-+-+-
+[Info   @20:40:30.579] 
+[Info   @20:40:30.579] +-+-+-+-+-| Verifying restoring databases will not conflict with existing databases |+-+-+-+-+-
+[Info   @20:40:30.579] Starting Node: DATABASECONFLICTS
+[Info   @20:40:30.579] NodePath : Container/Progress/DATABASECONFLICTS
+[Info   @20:40:30.580] Node returned: Success
+[Info   @20:40:30.580] Completed VerifyNoExistingDatabases: Success
+[Info   @20:40:30.580] -----------------------------------------------------
+[Info   @20:40:30.580] 
+[Info   @20:40:30.580] +-+-+-+-+-| Running VerifyNoExistingDatabases: Verifying restoring databases will not conflict with existing databases |+-+-+-+-+-
+[Info   @20:40:30.580] 
+[Info   @20:40:30.580] +-+-+-+-+-| Verifying restoring databases will not conflict with existing databases |+-+-+-+-+-
+[Info   @20:40:30.580] Starting Node: DATABASECONFLICTS
+[Info   @20:40:30.580] NodePath : Container/Progress/DATABASECONFLICTS
+[Info   @20:40:30.580] Node returned: Success
+[Info   @20:40:30.580] Completed VerifyNoExistingDatabases: Success
+[Info   @20:40:30.580] -----------------------------------------------------
+[Info   @20:40:30.580] 
+[Info   @20:40:30.580] +-+-+-+-+-| Running VerifyNoExistingDatabases: Verifying restoring databases will not conflict with existing databases |+-+-+-+-+-
+[Info   @20:40:30.581] 
+[Info   @20:40:30.581] +-+-+-+-+-| Verifying restoring databases will not conflict with existing databases |+-+-+-+-+-
+[Info   @20:40:30.581] Starting Node: DATABASECONFLICTS
+[Info   @20:40:30.581] NodePath : Container/Progress/DATABASECONFLICTS
+[Info   @20:40:30.581] Node returned: Success
+[Info   @20:40:30.581] Completed VerifyNoExistingDatabases: Success
+[Info   @20:40:30.581] -----------------------------------------------------
+[Info   @20:40:30.581] 
+[Info   @20:40:30.581] +-+-+-+-+-| Running VerifyNoExistingDatabases: Verifying restoring databases will not conflict with existing databases |+-+-+-+-+-
+[Info   @20:40:30.581] 
+[Info   @20:40:30.581] +-+-+-+-+-| Verifying restoring databases will not conflict with existing databases |+-+-+-+-+-
+[Info   @20:40:30.581] Starting Node: DATABASECONFLICTS
+[Info   @20:40:30.581] NodePath : Container/Progress/DATABASECONFLICTS
+[Info   @20:40:30.582] Node returned: Success
+[Info   @20:40:30.582] Completed VerifyNoExistingDatabases: Success
+[Info   @20:40:30.582] -----------------------------------------------------
+[Info   @20:40:30.582] 
+[Info   @20:40:30.582] +-+-+-+-+-| Running VerifyNoExistingDatabases: Verifying restoring databases will not conflict with existing databases |+-+-+-+-+-
+[Info   @20:40:30.582] 
+[Info   @20:40:30.582] +-+-+-+-+-| Verifying restoring databases will not conflict with existing databases |+-+-+-+-+-
+[Info   @20:40:30.582] Starting Node: DATABASECONFLICTS
+[Info   @20:40:30.582] NodePath : Container/Progress/DATABASECONFLICTS
+[Info   @20:40:30.582] Node returned: Success
+[Info   @20:40:30.582] Completed VerifyNoExistingDatabases: Success
+[Info   @20:40:30.582] -----------------------------------------------------
+[Info   @20:40:30.582] 
+[Info   @20:40:30.582] +-+-+-+-+-| Running VerifyNoExistingDatabases: Verifying restoring databases will not conflict with existing databases |+-+-+-+-+-
+[Info   @20:40:30.583] 
+[Info   @20:40:30.583] +-+-+-+-+-| Verifying restoring databases will not conflict with existing databases |+-+-+-+-+-
+[Info   @20:40:30.583] Starting Node: DATABASECONFLICTS
+[Info   @20:40:30.583] NodePath : Container/Progress/DATABASECONFLICTS
+[Info   @20:40:30.583] Node returned: Success
+[Info   @20:40:30.583] Completed VerifyNoExistingDatabases: Success
+[Info   @20:40:30.583] -----------------------------------------------------
+[Info   @20:40:30.584] 
+[Info   @20:40:30.584] +-+-+-+-+-| Running System Verification: System Verification |+-+-+-+-+-
+[Info   @20:40:30.585] 
+[Info   @20:40:30.585] +-+-+-+-+-| System Verification |+-+-+-+-+-
+[Info   @20:40:30.585] Starting Node: CONTAINER
+[Info   @20:40:30.585] NodePath : Container/Progress
+[Info   @20:40:30.585] Node returned: Ignore
+[Info   @20:40:30.585] Completed System Verification: Ignore
+[Info   @20:40:30.585] -----------------------------------------------------
+[Info   @20:40:30.585] 
+[Info   @20:40:30.585] +-+-+-+-+-| Running VerifyBackupPath: Verifying the backup path exists and is a network path |+-+-+-+-+-
+[Info   @20:40:30.585] 
+[Info   @20:40:30.585] +-+-+-+-+-| Verifying the backup path exists and is a network path |+-+-+-+-+-
+[Info   @20:40:30.585] Starting Node: BACKUPPATH
+[Info   @20:40:30.585] NodePath : Container/Progress/BACKUPPATH
+[Info   @20:40:31.421] Node returned: Success
+[Info   @20:40:31.421] Completed VerifyBackupPath: Success
+[Info   @20:40:31.421] -----------------------------------------------------
+[Info   @20:40:31.421] 
+[Info   @20:40:31.421] +-+-+-+-+-| Running VerifyDiskFreeSpace: Verifying that the backup path has free space |+-+-+-+-+-
+[Info   @20:40:31.422] 
+[Info   @20:40:31.422] +-+-+-+-+-| Verifying that the backup path has free space |+-+-+-+-+-
+[Info   @20:40:31.422] Starting Node: DISKFREESPACE
+[Info   @20:40:31.422] NodePath : Container/Progress/DISKFREESPACE
+[Info   @20:40:31.422] Verifying disk free space on \\MH-CLBDSQLSA42\BackupMHCP
+[Info   @20:40:31.423] Node returned: Success
+[Info   @20:40:31.423] Completed VerifyDiskFreeSpace: Success
+[Info   @20:40:31.423] -----------------------------------------------------
+[Info   @20:40:31.423] 
+[Info   @20:40:31.423] +-+-+-+-+-| Running Verify SQL Server Instances: A generic container node that does not contribute to results |+-+-+-+-+-
+[Info   @20:40:31.424] 
+[Info   @20:40:31.424] +-+-+-+-+-| A generic container node that does not contribute to results |+-+-+-+-+-
+[Info   @20:40:31.424] Starting Node: VCONTAINER
+[Info   @20:40:31.424] NodePath : Container/Progress/VCONTAINER
+[Info   @20:40:31.424] Node returned: Ignore
+[Info   @20:40:31.424] Completed Verify SQL Server Instances: Ignore
+[Info   @20:40:31.424] -----------------------------------------------------
+[Info   @20:40:31.424] 
+[Info   @20:40:31.424] +-+-+-+-+-| Running VerifyBackupsExist: Verifying the backup files exist |+-+-+-+-+-
+[Info   @20:40:31.424] 
+[Info   @20:40:31.424] +-+-+-+-+-| Verifying the backup files exist |+-+-+-+-+-
+[Info   @20:40:31.424] Starting Node: BACKUPSEXIST
+[Info   @20:40:31.424] NodePath : Container/Progress/BACKUPSEXIST
+[Info   @20:40:31.424] Verifying that the backup files exist.
+[Info   @20:40:31.432] 
+[Info   @20:40:31.432] -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+[Info   @20:40:31.432] Backup files to restore database: ReportServer_TFS
+[Info   @20:40:31.432] -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+[Info   @20:40:31.432] \\MH-CLBDSQLSA42\BackupMHCP\ReportServer_TFS_9861355682142950724F.bak
+[Info   @20:40:31.432] \\MH-CLBDSQLSA42\BackupMHCP\ReportServer_TFS_9861355705678048362L.trn
+[Info   @20:40:31.433] \\MH-CLBDSQLSA42\BackupMHCP\ReportServer_TFS_9861355708664441055L.trn
+[Info   @20:40:31.433] \\MH-CLBDSQLSA42\BackupMHCP\ReportServer_TFS_9861355717667708896L.trn
+[Info   @20:40:31.433] \\MH-CLBDSQLSA42\BackupMHCP\ReportServer_TFS_9861355726664789823L.trn
+[Info   @20:40:31.433] \\MH-CLBDSQLSA42\BackupMHCP\ReportServer_TFS_9861355735668255056L.trn
+[Info   @20:40:31.433] \\MH-CLBDSQLSA42\BackupMHCP\ReportServer_TFS_9861355744666325234L.trn STOPATMARK
+[Info   @20:40:31.433] 
+[Info   @20:40:31.433] -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+[Info   @20:40:31.433] Backup files to restore database: ReportServer_TFSTempDB
+[Info   @20:40:31.433] -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+[Info   @20:40:31.433] \\MH-CLBDSQLSA42\BackupMHCP\ReportServer_TFSTempDB_9861355682142950724F.bak
+[Info   @20:40:31.433] \\MH-CLBDSQLSA42\BackupMHCP\ReportServer_TFSTempDB_9861355705678048362L.trn
+[Info   @20:40:31.433] \\MH-CLBDSQLSA42\BackupMHCP\ReportServer_TFSTempDB_9861355708664441055L.trn
+[Info   @20:40:31.433] \\MH-CLBDSQLSA42\BackupMHCP\ReportServer_TFSTempDB_9861355717667708896L.trn
+[Info   @20:40:31.433] \\MH-CLBDSQLSA42\BackupMHCP\ReportServer_TFSTempDB_9861355726664789823L.trn
+[Info   @20:40:31.433] \\MH-CLBDSQLSA42\BackupMHCP\ReportServer_TFSTempDB_9861355735668255056L.trn
+[Info   @20:40:31.434] \\MH-CLBDSQLSA42\BackupMHCP\ReportServer_TFSTempDB_9861355744666325234L.trn STOPATMARK
+[Info   @20:40:31.434] 
+[Info   @20:40:31.434] -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+[Info   @20:40:31.434] Backup files to restore database: Tfs2013_Warehouse
+[Info   @20:40:31.434] -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+[Info   @20:40:31.434] \\MH-CLBDSQLSA42\BackupMHCP\Tfs2013_Warehouse_9861355682142950724F.bak
+[Info   @20:40:31.434] \\MH-CLBDSQLSA42\BackupMHCP\Tfs2013_Warehouse_9861355705678048362L.trn
+[Info   @20:40:31.434] \\MH-CLBDSQLSA42\BackupMHCP\Tfs2013_Warehouse_9861355708664441055L.trn
+[Info   @20:40:31.434] \\MH-CLBDSQLSA42\BackupMHCP\Tfs2013_Warehouse_9861355717667708896L.trn
+[Info   @20:40:31.434] \\MH-CLBDSQLSA42\BackupMHCP\Tfs2013_Warehouse_9861355726664789823L.trn
+[Info   @20:40:31.434] \\MH-CLBDSQLSA42\BackupMHCP\Tfs2013_Warehouse_9861355735668255056L.trn
+[Info   @20:40:31.434] \\MH-CLBDSQLSA42\BackupMHCP\Tfs2013_Warehouse_9861355744666325234L.trn STOPATMARK
+[Info   @20:40:31.434] 
+[Info   @20:40:31.434] -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+[Info   @20:40:31.434] Backup files to restore database: Tfs_ProyectosMigrados
+[Info   @20:40:31.434] -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+[Info   @20:40:31.435] \\MH-CLBDSQLSA42\BackupMHCP\Tfs_ProyectosMigrados_9861355682142950724F.bak
+[Info   @20:40:31.435] \\MH-CLBDSQLSA42\BackupMHCP\Tfs_ProyectosMigrados_9861355705678048362L.trn
+[Info   @20:40:31.435] \\MH-CLBDSQLSA42\BackupMHCP\Tfs_ProyectosMigrados_9861355708664441055L.trn
+[Info   @20:40:31.435] \\MH-CLBDSQLSA42\BackupMHCP\Tfs_ProyectosMigrados_9861355717667708896L.trn
+[Info   @20:40:31.435] \\MH-CLBDSQLSA42\BackupMHCP\Tfs_ProyectosMigrados_9861355726664789823L.trn
+[Info   @20:40:31.435] \\MH-CLBDSQLSA42\BackupMHCP\Tfs_ProyectosMigrados_9861355735668255056L.trn
+[Info   @20:40:31.435] \\MH-CLBDSQLSA42\BackupMHCP\Tfs_ProyectosMigrados_9861355744666325234L.trn STOPATMARK
+[Info   @20:40:31.435] 
+[Info   @20:40:31.435] -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+[Info   @20:40:31.435] Backup files to restore database: Tfs_HistoricoDefault
+[Info   @20:40:31.435] -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+[Info   @20:40:31.435] \\MH-CLBDSQLSA42\BackupMHCP\Tfs_HistoricoDefault_9861355682142950724F.bak
+[Info   @20:40:31.436] \\MH-CLBDSQLSA42\BackupMHCP\Tfs_HistoricoDefault_9861355705678048362L.trn
+[Info   @20:40:31.436] \\MH-CLBDSQLSA42\BackupMHCP\Tfs_HistoricoDefault_9861355708664441055L.trn
+[Info   @20:40:31.436] \\MH-CLBDSQLSA42\BackupMHCP\Tfs_HistoricoDefault_9861355717667708896L.trn
+[Info   @20:40:31.436] \\MH-CLBDSQLSA42\BackupMHCP\Tfs_HistoricoDefault_9861355726664789823L.trn
+[Info   @20:40:31.436] \\MH-CLBDSQLSA42\BackupMHCP\Tfs_HistoricoDefault_9861355735668255056L.trn
+[Info   @20:40:31.436] \\MH-CLBDSQLSA42\BackupMHCP\Tfs_HistoricoDefault_9861355744666325234L.trn STOPATMARK
+[Info   @20:40:31.436] 
+[Info   @20:40:31.436] -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+[Info   @20:40:31.436] Backup files to restore database: Tfs_ProyectosSCRUM
+[Info   @20:40:31.436] -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+[Info   @20:40:31.436] \\MH-CLBDSQLSA42\BackupMHCP\Tfs_ProyectosSCRUM_9861355682142950724F.bak
+[Info   @20:40:31.436] \\MH-CLBDSQLSA42\BackupMHCP\Tfs_ProyectosSCRUM_9861355705678048362L.trn
+[Info   @20:40:31.436] \\MH-CLBDSQLSA42\BackupMHCP\Tfs_ProyectosSCRUM_9861355708664441055L.trn
+[Info   @20:40:31.437] \\MH-CLBDSQLSA42\BackupMHCP\Tfs_ProyectosSCRUM_9861355717667708896L.trn
+[Info   @20:40:31.437] \\MH-CLBDSQLSA42\BackupMHCP\Tfs_ProyectosSCRUM_9861355726664789823L.trn
+[Info   @20:40:31.437] \\MH-CLBDSQLSA42\BackupMHCP\Tfs_ProyectosSCRUM_9861355735668255056L.trn
+[Info   @20:40:31.437] \\MH-CLBDSQLSA42\BackupMHCP\Tfs_ProyectosSCRUM_9861355744666325234L.trn STOPATMARK
+[Info   @20:40:31.437] 
+[Info   @20:40:31.437] -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+[Info   @20:40:31.437] Backup files to restore database: Tfs_DefaultCollection
+[Info   @20:40:31.437] -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+[Info   @20:40:31.437] \\MH-CLBDSQLSA42\BackupMHCP\Tfs_DefaultCollection_9861355682142950724F.bak
+[Info   @20:40:31.437] \\MH-CLBDSQLSA42\BackupMHCP\Tfs_DefaultCollection_9861355705678048362L.trn
+[Info   @20:40:31.437] \\MH-CLBDSQLSA42\BackupMHCP\Tfs_DefaultCollection_9861355708664441055L.trn
+[Info   @20:40:31.437] \\MH-CLBDSQLSA42\BackupMHCP\Tfs_DefaultCollection_9861355717667708896L.trn
+[Info   @20:40:31.437] \\MH-CLBDSQLSA42\BackupMHCP\Tfs_DefaultCollection_9861355726664789823L.trn
+[Info   @20:40:31.438] \\MH-CLBDSQLSA42\BackupMHCP\Tfs_DefaultCollection_9861355735668255056L.trn
+[Info   @20:40:31.438] \\MH-CLBDSQLSA42\BackupMHCP\Tfs_DefaultCollection_9861355744666325234L.trn STOPATMARK
+[Info   @20:40:31.438] 
+[Info   @20:40:31.438] -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+[Info   @20:40:31.438] Backup files to restore database: Tfs_Configuration
+[Info   @20:40:31.438] -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+[Info   @20:40:31.438] \\MH-CLBDSQLSA42\BackupMHCP\Tfs_Configuration_9861355682142950724F.bak
+[Info   @20:40:31.438] \\MH-CLBDSQLSA42\BackupMHCP\Tfs_Configuration_9861355705678048362L.trn
+[Info   @20:40:31.438] \\MH-CLBDSQLSA42\BackupMHCP\Tfs_Configuration_9861355708664441055L.trn
+[Info   @20:40:31.438] \\MH-CLBDSQLSA42\BackupMHCP\Tfs_Configuration_9861355717667708896L.trn
+[Info   @20:40:31.438] \\MH-CLBDSQLSA42\BackupMHCP\Tfs_Configuration_9861355726664789823L.trn
+[Info   @20:40:31.439] \\MH-CLBDSQLSA42\BackupMHCP\Tfs_Configuration_9861355735668255056L.trn
+[Info   @20:40:31.439] \\MH-CLBDSQLSA42\BackupMHCP\Tfs_Configuration_9861355744666325234L.trn STOPATMARK
+[Info   @20:40:31.439] Node returned: Success
+[Info   @20:40:31.439] Completed VerifyBackupsExist: Success
+[Info   @20:40:31.439] -----------------------------------------------------
+[Info   @20:40:31.439] Execution results:
+[Info   @20:40:31.439] Overall result: Success
+[Info   @20:40:31.439] Nodes completed: 13
+[Info   @20:40:31.439] Nodes succeeded: 13
+[Info   @20:40:31.439] Nodes skipped: 0
+[Info   @20:40:31.439] Nodes with errors: 0
+[Info   @20:40:31.439] Nodes with warnings: 0
+[Info   @20:40:31.439] Number of error messages: 0
+[Info   @20:40:31.439] Number of warning messages: 0
+[Info   @20:40:31.439] Number of info messages: 0
+[Info   @20:40:45.226] 
+[Info   @20:40:45.226] -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+[Info   @20:40:45.226] Activity.ExecutePlan
+[Info   @20:40:45.226] -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+[Info   @20:40:45.226] - ContainerTask (ContainerNode) : Restore Databases
+
+	- ContainerTask (ProgressNode) : Granting Required Permissions for Restore Operation
+
+		- GrantSqlPermissionToBackups (ConfigureNode) : Granting SQL permission to backup path
+
+	- ContainerTask (ProgressNode) : Restoring Databases
+
+		- RestoreDatabases (ConfigureNode) : Restoring Databases
+
+	- ContainerTask (ProgressNode) : Saving Settings
+
+		- SaveConfigurationAfterRestore (ConfigureNode) : Saving Backup Settings
+
+
+[Info   @20:40:45.226] 
+[Info   @20:40:45.226] +-+-+-+-+-| Execute |+-+-+-+-+-
+[Info   @20:40:45.226] 
+[Info   @20:40:45.226] +-+-+-+-+-| Review Settings |+-+-+-+-+-
+[Info   @20:40:45.226] 
+Summary Sections
+
+	Section: Backup Set Details
+		Backup Path: \\MH-CLBDSQLSA42\BackupMHCP
+		Backup Set Time: 9/9/2022 8:39:41 PM
+		Backup Size: 344,315 MB
+	Section: Reporting Instance
+		Reporting Instance: MH-PRBDSA07
+		Reporting Encryption Key File: RSKey9861355681665996020.snk
+
+[Info   @20:40:45.226] 
+[Info   @20:40:45.226] +-+-+-+-+-| Environment |+-+-+-+-+-
+[Info   @20:40:45.227] Environment: BaseEnvironment
+	Setup: 
+		InstallPath: C:\Program Files\Azure DevOps Server 2022\
+		ToolsPath: C:\Program Files\Azure DevOps Server 2022\Tools
+		ApplicationTierPath: C:\Program Files\Azure DevOps Server 2022\Application Tier
+		BuildTierPath: C:\Program Files\Azure DevOps Server 2022\Tools
+		SearchTierPath: C:\Program Files\Azure DevOps Server 2022\Search
+		ProxyPath: C:\Program Files\Azure DevOps Server 2022\Version Control Proxy
+		SetupUser: MINHACIENDA\s-tfssvc03
+		WebServicePath: C:\Program Files\Azure DevOps Server 2022\Application Tier\Web Services
+		JobAgentPath: C:\Program Files\Azure DevOps Server 2022\Application Tier\TFSJobAgent
+		MessageQueuePath: C:\Program Files\Azure DevOps Server 2022\Application Tier\Message Queue
+		SshServicePath: C:\Program Files\Azure DevOps Server 2022\Application Tier\Web Services\bin
+		SshServiceExePath: C:\Program Files\Azure DevOps Server 2022\Application Tier\Web Services\bin\TeamFoundationSshService.exe
+		GvfsServicePath: C:\Program Files\Azure DevOps Server 2022\Version Control Proxy\Web Services\bin
+		SystemTfsTemp: C:\Windows\Temp\TFSTemp
+	OS: 
+		MachineName: MH-PRTFSSA06
+		HostName: MH-PRTFSSA06
+		IsClientOS: False
+		IsServerOS: True
+		IsDomainController: False
+		IsMachineInWorkgroup: False
+		IsMachineInDomain: True
+		IsHomeEdition: False
+		IsUnsupportedEdition: False
+		Version: Server2022
+		MajorVersion: 10
+		MinorVersion: 0
+		ProcessorCount: 2
+		ServicePackMajor: 0
+		ServicePackMinor: 0
+		IsOSPostTfsRelease: False
+		Edition: Standard
+		VisibleMemoryMB: 16383
+		AdjustedMemoryGB: 16
+	Iis: 
+		IsInstalled: True
+		PreviouslyFailedConfig: False
+		RequiredIisFeaturesInstalled: False
+		IsSniSupported: True
+		IsWebHostingStoreAvailable: True
+		OS: 
+			MachineName: MH-PRTFSSA06
+			HostName: MH-PRTFSSA06
+			IsClientOS: False
+			IsServerOS: True
+			IsDomainController: False
+			IsMachineInWorkgroup: False
+			IsMachineInDomain: True
+			IsHomeEdition: False
+			IsUnsupportedEdition: False
+			Version: Server2022
+			MajorVersion: 10
+			MinorVersion: 0
+			ProcessorCount: 2
+			ServicePackMajor: 0
+			ServicePackMinor: 0
+			IsOSPostTfsRelease: False
+			Edition: Standard
+			VisibleMemoryMB: 16383
+			AdjustedMemoryGB: 16
+	Sql: 
+	PowerTools: 
+		IsBackupToolConfigured: False
+	Java: 
+		IsJavaInstalled: False
+		IsServerVersion: False
+		Is64BitVersion: False
+		JavaHome: 
+		JavaVersion: 0.0.0.0
+
+[Info   @20:40:45.227] 
+[Info   @20:40:45.227] +-+-+-+-+-| Configuration Plan |+-+-+-+-+-
+[Info   @20:40:45.227] - ContainerTask (ContainerNode) : Restore Databases
+
+	- ContainerTask (ProgressNode) : Granting Required Permissions for Restore Operation
+
+		- GrantSqlPermissionToBackups (ConfigureNode) : Granting SQL permission to backup path
+
+	- ContainerTask (ProgressNode) : Restoring Databases
+
+		- RestoreDatabases (ConfigureNode) : Restoring Databases
+
+	- ContainerTask (ProgressNode) : Saving Settings
+
+		- SaveConfigurationAfterRestore (ConfigureNode) : Saving Backup Settings
+
+
+[Info   @20:40:45.227] 
+[Info   @20:40:45.227] +-+-+-+-+-| Running Restore Databases: Restore Databases |+-+-+-+-+-
+[Info   @20:40:45.232] 
+[Info   @20:40:45.232] +-+-+-+-+-| Restore Databases |+-+-+-+-+-
+[Info   @20:40:45.232] Starting Node: CONTAINER
+[Info   @20:40:45.232] NodePath : Container
+[Info   @20:40:45.232] Node returned: Ignore
+[Info   @20:40:45.232] Completed Restore Databases: Ignore
+[Info   @20:40:45.232] -----------------------------------------------------
+[Info   @20:40:45.234] 
+[Info   @20:40:45.234] +-+-+-+-+-| Running Granting Required Permissions for Restore Operation: Granting Required Permissions for Restore Operation |+-+-+-+-+-
+[Info   @20:40:45.234] 
+[Info   @20:40:45.234] +-+-+-+-+-| Granting Required Permissions for Restore Operation |+-+-+-+-+-
+[Info   @20:40:45.234] Starting Node: CONTAINER
+[Info   @20:40:45.234] NodePath : Container/Progress
+[Info   @20:40:45.234] Node returned: Ignore
+[Info   @20:40:45.234] Completed Granting Required Permissions for Restore Operation: Ignore
+[Info   @20:40:45.234] -----------------------------------------------------
+[Info   @20:40:45.235] 
+[Info   @20:40:45.235] +-+-+-+-+-| Running GrantSqlPermissionToBackups: Granting SQL permission to backup path |+-+-+-+-+-
+[Info   @20:40:45.235] 
+[Info   @20:40:45.235] +-+-+-+-+-| Granting SQL permission to backup path |+-+-+-+-+-
+[Info   @20:40:45.235] Starting Node: SQLBACKUPPERMISSION
+[Info   @20:40:45.235] NodePath : Container/Progress/SQLBACKUPPERMISSION
+[Info   @20:40:45.237] Grant SQL Server permission to backup files
+[Info   @20:40:45.239] Reading backup set information
+[Info   @20:40:45.240] Granting SQL Server permission
+[Info   @20:40:46.822] Node returned: Success
+[Info   @20:40:46.822] Completed GrantSqlPermissionToBackups: Success
+[Info   @20:40:46.822] -----------------------------------------------------
+[Info   @20:40:46.824] 
+[Info   @20:40:46.824] +-+-+-+-+-| Running Restoring Databases: Restoring Databases |+-+-+-+-+-
+[Info   @20:40:46.825] 
+[Info   @20:40:46.825] +-+-+-+-+-| Restoring Databases |+-+-+-+-+-
+[Info   @20:40:46.825] Starting Node: CONTAINER
+[Info   @20:40:46.825] NodePath : Container/Progress
+[Info   @20:40:46.825] Node returned: Ignore
+[Info   @20:40:46.825] Completed Restoring Databases: Ignore
+[Info   @20:40:46.825] -----------------------------------------------------
+[Info   @20:40:46.825] 
+[Info   @20:40:46.825] +-+-+-+-+-| Running RestoreDatabases: Restoring Databases |+-+-+-+-+-
+[Info   @20:40:46.826] 
+[Info   @20:40:46.826] +-+-+-+-+-| Restoring Databases |+-+-+-+-+-
+[Info   @20:40:46.826] Starting Node: RestoreDatabases
+[Info   @20:40:46.826] NodePath : Container/Progress/RestoreDatabases
+[Info   @20:40:46.831] Restoring databases
+[Info   @20:40:46.841] Restoring full backup for database ReportServer_TFS to MH-PRBDSA07
+[Info   @20:40:46.853] Executing SqlDatabaseRestore.RelocateFiles
+[Info   @20:40:48.036] Found 2 backup content files.
+[Info   @20:40:48.036] ReportServer is relocated to C:\Program Files\Microsoft SQL Server\MSSQL15.MSSQLSERVER\MSSQL\DATA\ReportServer_TFS.mdf.
+[Info   @20:40:48.036] ReportServer_log is relocated to C:\Program Files\Microsoft SQL Server\MSSQL15.MSSQLSERVER\MSSQL\DATA\ReportServer_TFS_log.ldf.
+[Info   @20:40:48.036] Exiting SqlDatabaseRestore.RelocateFiles
+[Info   @20:40:48.037] Restore database ReportServer_TFS to MH-PRBDSA07 from \\MH-CLBDSQLSA42\BackupMHCP\ReportServer_TFS_9861355682142950724F.bak
+[Info   @20:40:48.042] RESTORE DATABASE [ReportServer_TFS] FROM DISK = N'\\MH-CLBDSQLSA42\BackupMHCP\ReportServer_TFS_9861355682142950724F.bak' WITH  MOVE N'ReportServer' TO N'C:\Program Files\Microsoft SQL Server\MSSQL15.MSSQLSERVER\MSSQL\DATA\ReportServer_TFS.mdf', MOVE N'ReportServer_log' TO N'C:\Program Files\Microsoft SQL Server\MSSQL15.MSSQLSERVER\MSSQL\DATA\ReportServer_TFS_log.ldf', NORECOVERY, NOUNLOAD, REPLACE, STATS = 10
+[Info   @20:40:48.044] Executing SqlDatabaseRestore.Restore
+[Info   @20:40:50.812] Database ReportServer_TFS. Percent completed: 9%
+[Info   @20:40:51.030] Database ReportServer_TFS. Percent completed: 18%
+[Info   @20:40:51.277] Database ReportServer_TFS. Percent completed: 28%
+[Info   @20:40:51.436] Database ReportServer_TFS. Percent completed: 37%
+[Info   @20:40:51.840] Database ReportServer_TFS. Percent completed: 47%
+[Info   @20:40:52.054] Database ReportServer_TFS. Percent completed: 56%
+[Info   @20:40:52.318] Database ReportServer_TFS. Percent completed: 65%
+[Info   @20:40:52.537] Database ReportServer_TFS. Percent completed: 75%
+[Info   @20:40:52.681] Database ReportServer_TFS. Percent completed: 84%
+[Info   @20:40:52.922] Database ReportServer_TFS. Percent completed: 94%
+[Info   @20:40:53.195] Completed Restore For Database ReportServer_TFS
+[Info   @20:40:53.195] Disk \\MH-CLBDSQLSA42\BackupMHCP\ReportServer_TFS_9861355682142950724F.bak
+[Info   @20:40:53.195] LogicalFileName ReportServer
+[Info   @20:40:53.195] PhysicalFileName C:\Program Files\Microsoft SQL Server\MSSQL15.MSSQLSERVER\MSSQL\DATA\ReportServer_TFS.mdf
+[Info   @20:40:53.195] LogicalFileName ReportServer_log
+[Info   @20:40:53.195] PhysicalFileName C:\Program Files\Microsoft SQL Server\MSSQL15.MSSQLSERVER\MSSQL\DATA\ReportServer_TFS_log.ldf
+[Info   @20:40:53.196] Restore operation completed. Elapsed time: 00:00:05.1508057
+[Info   @20:40:53.196] Exiting SqlDatabaseRestore.Restore
+[Info   @20:40:53.196] Restoring transaction log backup for database ReportServer_TFS to MH-PRBDSA07
+[Info   @20:40:53.220] Restore database ReportServer_TFS to MH-PRBDSA07 from \\MH-CLBDSQLSA42\BackupMHCP\ReportServer_TFS_9861355705678048362L.trn
+[Info   @20:40:53.221] RESTORE DATABASE [ReportServer_TFS] FROM DISK = N'\\MH-CLBDSQLSA42\BackupMHCP\ReportServer_TFS_9861355705678048362L.trn' WITH  NORECOVERY, NOUNLOAD, STATS = 10
+[Info   @20:40:53.221] Executing SqlDatabaseRestore.Restore
+[Info   @20:40:54.726] Database ReportServer_TFS. Percent completed: 95%
+[Info   @20:40:54.949] Completed Restore For Database ReportServer_TFS
+[Info   @20:40:54.949] Disk \\MH-CLBDSQLSA42\BackupMHCP\ReportServer_TFS_9861355705678048362L.trn
+[Info   @20:40:54.949] Restore operation completed. Elapsed time: 00:00:01.7280165
+[Info   @20:40:54.949] Exiting SqlDatabaseRestore.Restore
+[Info   @20:40:54.949] Restore database ReportServer_TFS to MH-PRBDSA07 from \\MH-CLBDSQLSA42\BackupMHCP\ReportServer_TFS_9861355708664441055L.trn
+[Info   @20:40:54.949] RESTORE DATABASE [ReportServer_TFS] FROM DISK = N'\\MH-CLBDSQLSA42\BackupMHCP\ReportServer_TFS_9861355708664441055L.trn' WITH  NORECOVERY, NOUNLOAD, STATS = 10
+[Info   @20:40:54.949] Executing SqlDatabaseRestore.Restore
+[Info   @20:40:55.175] Database ReportServer_TFS. Percent completed: 96%
+[Info   @20:40:55.279] Completed Restore For Database ReportServer_TFS
+[Info   @20:40:55.279] Disk \\MH-CLBDSQLSA42\BackupMHCP\ReportServer_TFS_9861355708664441055L.trn
+[Info   @20:40:55.279] Restore operation completed. Elapsed time: 00:00:00.3294998
+[Info   @20:40:55.279] Exiting SqlDatabaseRestore.Restore
+[Info   @20:40:55.279] Restore database ReportServer_TFS to MH-PRBDSA07 from \\MH-CLBDSQLSA42\BackupMHCP\ReportServer_TFS_9861355717667708896L.trn
+[Info   @20:40:55.279] RESTORE DATABASE [ReportServer_TFS] FROM DISK = N'\\MH-CLBDSQLSA42\BackupMHCP\ReportServer_TFS_9861355717667708896L.trn' WITH  NORECOVERY, NOUNLOAD, STATS = 10
+[Info   @20:40:55.279] Executing SqlDatabaseRestore.Restore
+[Info   @20:40:55.350] Database ReportServer_TFS. Percent completed: 97%
+[Info   @20:40:55.445] Completed Restore For Database ReportServer_TFS
+[Info   @20:40:55.445] Disk \\MH-CLBDSQLSA42\BackupMHCP\ReportServer_TFS_9861355717667708896L.trn
+[Info   @20:40:55.445] Restore operation completed. Elapsed time: 00:00:00.1671632
+[Info   @20:40:55.445] Exiting SqlDatabaseRestore.Restore
+[Info   @20:40:55.445] Restore database ReportServer_TFS to MH-PRBDSA07 from \\MH-CLBDSQLSA42\BackupMHCP\ReportServer_TFS_9861355726664789823L.trn
+[Info   @20:40:55.446] RESTORE DATABASE [ReportServer_TFS] FROM DISK = N'\\MH-CLBDSQLSA42\BackupMHCP\ReportServer_TFS_9861355726664789823L.trn' WITH  NORECOVERY, NOUNLOAD, STATS = 10
+[Info   @20:40:55.446] Executing SqlDatabaseRestore.Restore
+[Info   @20:40:55.572] Database ReportServer_TFS. Percent completed: 98%
+[Info   @20:40:55.678] Completed Restore For Database ReportServer_TFS
+[Info   @20:40:55.678] Disk \\MH-CLBDSQLSA42\BackupMHCP\ReportServer_TFS_9861355726664789823L.trn
+[Info   @20:40:55.678] Restore operation completed. Elapsed time: 00:00:00.2316851
+[Info   @20:40:55.678] Exiting SqlDatabaseRestore.Restore
+[Info   @20:40:55.678] Restore database ReportServer_TFS to MH-PRBDSA07 from \\MH-CLBDSQLSA42\BackupMHCP\ReportServer_TFS_9861355735668255056L.trn
+[Info   @20:40:55.678] RESTORE DATABASE [ReportServer_TFS] FROM DISK = N'\\MH-CLBDSQLSA42\BackupMHCP\ReportServer_TFS_9861355735668255056L.trn' WITH  NORECOVERY, NOUNLOAD, STATS = 10
+[Info   @20:40:55.678] Executing SqlDatabaseRestore.Restore
+[Info   @20:40:55.875] Database ReportServer_TFS. Percent completed: 99%
+[Info   @20:40:55.973] Completed Restore For Database ReportServer_TFS
+[Info   @20:40:55.973] Disk \\MH-CLBDSQLSA42\BackupMHCP\ReportServer_TFS_9861355735668255056L.trn
+[Info   @20:40:55.973] Restore operation completed. Elapsed time: 00:00:00.2947920
+[Info   @20:40:55.973] Exiting SqlDatabaseRestore.Restore
+[Info   @20:40:55.973] Restore database ReportServer_TFS to MH-PRBDSA07 from \\MH-CLBDSQLSA42\BackupMHCP\ReportServer_TFS_9861355744666325234L.trn
+[Info   @20:40:55.973] RESTORE DATABASE [ReportServer_TFS] FROM DISK = N'\\MH-CLBDSQLSA42\BackupMHCP\ReportServer_TFS_9861355744666325234L.trn' WITH  RECOVERY, NOUNLOAD, STATS = 10
+[Info   @20:40:55.973] Executing SqlDatabaseRestore.Restore
+[Info   @20:40:56.048] Database ReportServer_TFS. Percent completed: 100%
+[Info   @20:40:56.998] Completed Restore For Database ReportServer_TFS
+[Info   @20:40:56.998] Disk \\MH-CLBDSQLSA42\BackupMHCP\ReportServer_TFS_9861355744666325234L.trn
+[Info   @20:40:56.998] Restore operation completed. Elapsed time: 00:00:01.0247986
+[Info   @20:40:57.085] Database name: ReportServer_TFS, State: Online
+[Info   @20:40:57.085] Exiting SqlDatabaseRestore.Restore
+[Info   @20:40:57.086] Testing connection to database ReportServer_TFS
+[Info   @20:40:57.090] Adding newly restored database ReportServer_TFS to the backupset.
+[Info   @20:40:57.090] Restoring full backup for database ReportServer_TFSTempDB to MH-PRBDSA07
+[Info   @20:40:57.093] Executing SqlDatabaseRestore.RelocateFiles
+[Info   @20:40:58.113] Found 2 backup content files.
+[Info   @20:40:58.113] ReportServerTempDB is relocated to C:\Program Files\Microsoft SQL Server\MSSQL15.MSSQLSERVER\MSSQL\DATA\ReportServer_TFSTempDB.mdf.
+[Info   @20:40:58.113] ReportServerTempDB_log is relocated to C:\Program Files\Microsoft SQL Server\MSSQL15.MSSQLSERVER\MSSQL\DATA\ReportServer_TFSTempDB_log.ldf.
+[Info   @20:40:58.113] Exiting SqlDatabaseRestore.RelocateFiles
+[Info   @20:40:58.113] Restore database ReportServer_TFSTempDB to MH-PRBDSA07 from \\MH-CLBDSQLSA42\BackupMHCP\ReportServer_TFSTempDB_9861355682142950724F.bak
+[Info   @20:40:58.113] RESTORE DATABASE [ReportServer_TFSTempDB] FROM DISK = N'\\MH-CLBDSQLSA42\BackupMHCP\ReportServer_TFSTempDB_9861355682142950724F.bak' WITH  MOVE N'ReportServerTempDB' TO N'C:\Program Files\Microsoft SQL Server\MSSQL15.MSSQLSERVER\MSSQL\DATA\ReportServer_TFSTempDB.mdf', MOVE N'ReportServerTempDB_log' TO N'C:\Program Files\Microsoft SQL Server\MSSQL15.MSSQLSERVER\MSSQL\DATA\ReportServer_TFSTempDB_log.ldf', NORECOVERY, NOUNLOAD, REPLACE, STATS = 10
+[Info   @20:40:58.114] Executing SqlDatabaseRestore.Restore
+[Info   @20:41:02.224] Database ReportServer_TFSTempDB. Percent completed: 9%
+[Info   @20:41:02.529] Database ReportServer_TFSTempDB. Percent completed: 18%
+[Info   @20:41:02.833] Database ReportServer_TFSTempDB. Percent completed: 28%
+[Info   @20:41:03.166] Database ReportServer_TFSTempDB. Percent completed: 37%
+[Info   @20:41:03.478] Database ReportServer_TFSTempDB. Percent completed: 47%
+[Info   @20:41:03.676] Database ReportServer_TFSTempDB. Percent completed: 56%
+[Info   @20:41:04.221] Database ReportServer_TFSTempDB. Percent completed: 65%
+[Info   @20:41:04.508] Database ReportServer_TFSTempDB. Percent completed: 75%
+[Info   @20:41:04.911] Database ReportServer_TFSTempDB. Percent completed: 84%
+[Info   @20:41:05.521] Database ReportServer_TFSTempDB. Percent completed: 94%
+[Info   @20:41:05.717] Completed Restore For Database ReportServer_TFSTempDB
+[Info   @20:41:05.717] Disk \\MH-CLBDSQLSA42\BackupMHCP\ReportServer_TFSTempDB_9861355682142950724F.bak
+[Info   @20:41:05.718] LogicalFileName ReportServerTempDB
+[Info   @20:41:05.718] PhysicalFileName C:\Program Files\Microsoft SQL Server\MSSQL15.MSSQLSERVER\MSSQL\DATA\ReportServer_TFSTempDB.mdf
+[Info   @20:41:05.718] LogicalFileName ReportServerTempDB_log
+[Info   @20:41:05.718] PhysicalFileName C:\Program Files\Microsoft SQL Server\MSSQL15.MSSQLSERVER\MSSQL\DATA\ReportServer_TFSTempDB_log.ldf
+[Info   @20:41:05.718] Restore operation completed. Elapsed time: 00:00:07.6036935
+[Info   @20:41:05.718] Exiting SqlDatabaseRestore.Restore
+[Info   @20:41:05.718] Restoring transaction log backup for database ReportServer_TFSTempDB to MH-PRBDSA07
+[Info   @20:41:05.722] Restore database ReportServer_TFSTempDB to MH-PRBDSA07 from \\MH-CLBDSQLSA42\BackupMHCP\ReportServer_TFSTempDB_9861355705678048362L.trn
+[Info   @20:41:05.722] RESTORE DATABASE [ReportServer_TFSTempDB] FROM DISK = N'\\MH-CLBDSQLSA42\BackupMHCP\ReportServer_TFSTempDB_9861355705678048362L.trn' WITH  NORECOVERY, NOUNLOAD, STATS = 10
+[Info   @20:41:05.722] Executing SqlDatabaseRestore.Restore
+[Info   @20:41:05.758] Database ReportServer_TFSTempDB. Percent completed: 95%
+[Info   @20:41:05.842] Completed Restore For Database ReportServer_TFSTempDB
+[Info   @20:41:05.842] Disk \\MH-CLBDSQLSA42\BackupMHCP\ReportServer_TFSTempDB_9861355705678048362L.trn
+[Info   @20:41:05.842] Restore operation completed. Elapsed time: 00:00:00.1207418
+[Info   @20:41:05.842] Exiting SqlDatabaseRestore.Restore
+[Info   @20:41:05.842] Restore database ReportServer_TFSTempDB to MH-PRBDSA07 from \\MH-CLBDSQLSA42\BackupMHCP\ReportServer_TFSTempDB_9861355708664441055L.trn
+[Info   @20:41:05.842] RESTORE DATABASE [ReportServer_TFSTempDB] FROM DISK = N'\\MH-CLBDSQLSA42\BackupMHCP\ReportServer_TFSTempDB_9861355708664441055L.trn' WITH  NORECOVERY, NOUNLOAD, STATS = 10
+[Info   @20:41:05.842] Executing SqlDatabaseRestore.Restore
+[Info   @20:41:05.894] Database ReportServer_TFSTempDB. Percent completed: 96%
+[Info   @20:41:05.983] Completed Restore For Database ReportServer_TFSTempDB
+[Info   @20:41:05.983] Disk \\MH-CLBDSQLSA42\BackupMHCP\ReportServer_TFSTempDB_9861355708664441055L.trn
+[Info   @20:41:05.983] Restore operation completed. Elapsed time: 00:00:00.1403876
+[Info   @20:41:05.983] Exiting SqlDatabaseRestore.Restore
+[Info   @20:41:05.983] Restore database ReportServer_TFSTempDB to MH-PRBDSA07 from \\MH-CLBDSQLSA42\BackupMHCP\ReportServer_TFSTempDB_9861355717667708896L.trn
+[Info   @20:41:05.983] RESTORE DATABASE [ReportServer_TFSTempDB] FROM DISK = N'\\MH-CLBDSQLSA42\BackupMHCP\ReportServer_TFSTempDB_9861355717667708896L.trn' WITH  NORECOVERY, NOUNLOAD, STATS = 10
+[Info   @20:41:05.983] Executing SqlDatabaseRestore.Restore
+[Info   @20:41:06.063] Database ReportServer_TFSTempDB. Percent completed: 97%
+[Info   @20:41:06.148] Completed Restore For Database ReportServer_TFSTempDB
+[Info   @20:41:06.148] Disk \\MH-CLBDSQLSA42\BackupMHCP\ReportServer_TFSTempDB_9861355717667708896L.trn
+[Info   @20:41:06.148] Restore operation completed. Elapsed time: 00:00:00.1652673
+[Info   @20:41:06.148] Exiting SqlDatabaseRestore.Restore
+[Info   @20:41:06.148] Restore database ReportServer_TFSTempDB to MH-PRBDSA07 from \\MH-CLBDSQLSA42\BackupMHCP\ReportServer_TFSTempDB_9861355726664789823L.trn
+[Info   @20:41:06.148] RESTORE DATABASE [ReportServer_TFSTempDB] FROM DISK = N'\\MH-CLBDSQLSA42\BackupMHCP\ReportServer_TFSTempDB_9861355726664789823L.trn' WITH  NORECOVERY, NOUNLOAD, STATS = 10
+[Info   @20:41:06.148] Executing SqlDatabaseRestore.Restore
+[Info   @20:41:06.227] Database ReportServer_TFSTempDB. Percent completed: 98%
+[Info   @20:41:06.317] Completed Restore For Database ReportServer_TFSTempDB
+[Info   @20:41:06.317] Disk \\MH-CLBDSQLSA42\BackupMHCP\ReportServer_TFSTempDB_9861355726664789823L.trn
+[Info   @20:41:06.317] Restore operation completed. Elapsed time: 00:00:00.1687235
+[Info   @20:41:06.317] Exiting SqlDatabaseRestore.Restore
+[Info   @20:41:06.317] Restore database ReportServer_TFSTempDB to MH-PRBDSA07 from \\MH-CLBDSQLSA42\BackupMHCP\ReportServer_TFSTempDB_9861355735668255056L.trn
+[Info   @20:41:06.317] RESTORE DATABASE [ReportServer_TFSTempDB] FROM DISK = N'\\MH-CLBDSQLSA42\BackupMHCP\ReportServer_TFSTempDB_9861355735668255056L.trn' WITH  NORECOVERY, NOUNLOAD, STATS = 10
+[Info   @20:41:06.317] Executing SqlDatabaseRestore.Restore
+[Info   @20:41:06.391] Database ReportServer_TFSTempDB. Percent completed: 99%
+[Info   @20:41:06.478] Completed Restore For Database ReportServer_TFSTempDB
+[Info   @20:41:06.478] Disk \\MH-CLBDSQLSA42\BackupMHCP\ReportServer_TFSTempDB_9861355735668255056L.trn
+[Info   @20:41:06.478] Restore operation completed. Elapsed time: 00:00:00.1607793
+[Info   @20:41:06.478] Exiting SqlDatabaseRestore.Restore
+[Info   @20:41:06.478] Restore database ReportServer_TFSTempDB to MH-PRBDSA07 from \\MH-CLBDSQLSA42\BackupMHCP\ReportServer_TFSTempDB_9861355744666325234L.trn
+[Info   @20:41:06.478] RESTORE DATABASE [ReportServer_TFSTempDB] FROM DISK = N'\\MH-CLBDSQLSA42\BackupMHCP\ReportServer_TFSTempDB_9861355744666325234L.trn' WITH  RECOVERY, NOUNLOAD, STATS = 10
+[Info   @20:41:06.478] Executing SqlDatabaseRestore.Restore
+[Info   @20:41:06.557] Database ReportServer_TFSTempDB. Percent completed: 100%
+[Info   @20:41:07.279] Completed Restore For Database ReportServer_TFSTempDB
+[Info   @20:41:07.279] Disk \\MH-CLBDSQLSA42\BackupMHCP\ReportServer_TFSTempDB_9861355744666325234L.trn
+[Info   @20:41:07.279] Restore operation completed. Elapsed time: 00:00:00.8003093
+[Info   @20:41:07.282] Database name: ReportServer_TFSTempDB, State: Online
+[Info   @20:41:07.282] Exiting SqlDatabaseRestore.Restore
+[Info   @20:41:07.282] Testing connection to database ReportServer_TFSTempDB
+[Info   @20:41:07.285] Adding newly restored database ReportServer_TFSTempDB to the backupset.
+[Info   @20:41:07.285] Restoring full backup for database Tfs2013_Warehouse to MH-PRBDSA07
+[Info   @20:41:07.289] Executing SqlDatabaseRestore.RelocateFiles
+[Info   @20:41:08.646] Found 2 backup content files.
+[Info   @20:41:08.646] Tfs2013_Warehouse is relocated to C:\Program Files\Microsoft SQL Server\MSSQL15.MSSQLSERVER\MSSQL\DATA\Tfs2013_Warehouse.mdf.
+[Info   @20:41:08.646] Tfs2013_Warehouse_log is relocated to C:\Program Files\Microsoft SQL Server\MSSQL15.MSSQLSERVER\MSSQL\DATA\Tfs2013_Warehouse_log.ldf.
+[Info   @20:41:08.646] Exiting SqlDatabaseRestore.RelocateFiles
+[Info   @20:41:08.646] Restore database Tfs2013_Warehouse to MH-PRBDSA07 from \\MH-CLBDSQLSA42\BackupMHCP\Tfs2013_Warehouse_9861355682142950724F.bak
+[Info   @20:41:08.646] RESTORE DATABASE [Tfs2013_Warehouse] FROM DISK = N'\\MH-CLBDSQLSA42\BackupMHCP\Tfs2013_Warehouse_9861355682142950724F.bak' WITH  MOVE N'Tfs2013_Warehouse' TO N'C:\Program Files\Microsoft SQL Server\MSSQL15.MSSQLSERVER\MSSQL\DATA\Tfs2013_Warehouse.mdf', MOVE N'Tfs2013_Warehouse_log' TO N'C:\Program Files\Microsoft SQL Server\MSSQL15.MSSQLSERVER\MSSQL\DATA\Tfs2013_Warehouse_log.ldf', NORECOVERY, NOUNLOAD, REPLACE, STATS = 10
+[Info   @20:41:08.646] Executing SqlDatabaseRestore.Restore
+[Info   @20:41:52.019] Database Tfs2013_Warehouse. Percent completed: 9%
+[Info   @20:41:57.526] Database Tfs2013_Warehouse. Percent completed: 18%
+[Info   @20:42:01.819] Database Tfs2013_Warehouse. Percent completed: 28%
+[Info   @20:42:05.620] Database Tfs2013_Warehouse. Percent completed: 37%
+[Info   @20:42:09.336] Database Tfs2013_Warehouse. Percent completed: 47%
+[Info   @20:42:14.096] Database Tfs2013_Warehouse. Percent completed: 56%
+[Info   @20:42:18.207] Database Tfs2013_Warehouse. Percent completed: 65%
+[Info   @20:42:22.428] Database Tfs2013_Warehouse. Percent completed: 75%
+[Info   @20:42:26.299] Database Tfs2013_Warehouse. Percent completed: 84%
+[Info   @20:42:30.301] Database Tfs2013_Warehouse. Percent completed: 94%
+[Info   @20:42:30.474] Completed Restore For Database Tfs2013_Warehouse
+[Info   @20:42:30.474] Disk \\MH-CLBDSQLSA42\BackupMHCP\Tfs2013_Warehouse_9861355682142950724F.bak
+[Info   @20:42:30.474] LogicalFileName Tfs2013_Warehouse
+[Info   @20:42:30.474] PhysicalFileName C:\Program Files\Microsoft SQL Server\MSSQL15.MSSQLSERVER\MSSQL\DATA\Tfs2013_Warehouse.mdf
+[Info   @20:42:30.474] LogicalFileName Tfs2013_Warehouse_log
+[Info   @20:42:30.474] PhysicalFileName C:\Program Files\Microsoft SQL Server\MSSQL15.MSSQLSERVER\MSSQL\DATA\Tfs2013_Warehouse_log.ldf
+[Info   @20:42:30.475] Restore operation completed. Elapsed time: 00:01:21.8262867
+[Info   @20:42:30.475] Exiting SqlDatabaseRestore.Restore
+[Info   @20:42:30.475] Restoring transaction log backup for database Tfs2013_Warehouse to MH-PRBDSA07
+[Info   @20:42:30.479] Restore database Tfs2013_Warehouse to MH-PRBDSA07 from \\MH-CLBDSQLSA42\BackupMHCP\Tfs2013_Warehouse_9861355705678048362L.trn
+[Info   @20:42:30.479] RESTORE DATABASE [Tfs2013_Warehouse] FROM DISK = N'\\MH-CLBDSQLSA42\BackupMHCP\Tfs2013_Warehouse_9861355705678048362L.trn' WITH  NORECOVERY, NOUNLOAD, STATS = 10
+[Info   @20:42:30.479] Executing SqlDatabaseRestore.Restore
+[Info   @20:42:30.522] Database Tfs2013_Warehouse. Percent completed: 95%
+[Info   @20:42:30.622] Completed Restore For Database Tfs2013_Warehouse
+[Info   @20:42:30.622] Disk \\MH-CLBDSQLSA42\BackupMHCP\Tfs2013_Warehouse_9861355705678048362L.trn
+[Info   @20:42:30.622] Restore operation completed. Elapsed time: 00:00:00.1433274
+[Info   @20:42:30.622] Exiting SqlDatabaseRestore.Restore
+[Info   @20:42:30.622] Restore database Tfs2013_Warehouse to MH-PRBDSA07 from \\MH-CLBDSQLSA42\BackupMHCP\Tfs2013_Warehouse_9861355708664441055L.trn
+[Info   @20:42:30.622] RESTORE DATABASE [Tfs2013_Warehouse] FROM DISK = N'\\MH-CLBDSQLSA42\BackupMHCP\Tfs2013_Warehouse_9861355708664441055L.trn' WITH  NORECOVERY, NOUNLOAD, STATS = 10
+[Info   @20:42:30.622] Executing SqlDatabaseRestore.Restore
+[Info   @20:42:30.787] Database Tfs2013_Warehouse. Percent completed: 96%
+[Info   @20:42:30.918] Completed Restore For Database Tfs2013_Warehouse
+[Info   @20:42:30.918] Disk \\MH-CLBDSQLSA42\BackupMHCP\Tfs2013_Warehouse_9861355708664441055L.trn
+[Info   @20:42:30.918] Restore operation completed. Elapsed time: 00:00:00.2952624
+[Info   @20:42:30.918] Exiting SqlDatabaseRestore.Restore
+[Info   @20:42:30.918] Restore database Tfs2013_Warehouse to MH-PRBDSA07 from \\MH-CLBDSQLSA42\BackupMHCP\Tfs2013_Warehouse_9861355717667708896L.trn
+[Info   @20:42:30.918] RESTORE DATABASE [Tfs2013_Warehouse] FROM DISK = N'\\MH-CLBDSQLSA42\BackupMHCP\Tfs2013_Warehouse_9861355717667708896L.trn' WITH  NORECOVERY, NOUNLOAD, STATS = 10
+[Info   @20:42:30.918] Executing SqlDatabaseRestore.Restore
+[Info   @20:42:31.010] Database Tfs2013_Warehouse. Percent completed: 97%
+[Info   @20:42:31.107] Completed Restore For Database Tfs2013_Warehouse
+[Info   @20:42:31.108] Disk \\MH-CLBDSQLSA42\BackupMHCP\Tfs2013_Warehouse_9861355717667708896L.trn
+[Info   @20:42:31.108] Restore operation completed. Elapsed time: 00:00:00.1900071
+[Info   @20:42:31.108] Exiting SqlDatabaseRestore.Restore
+[Info   @20:42:31.108] Restore database Tfs2013_Warehouse to MH-PRBDSA07 from \\MH-CLBDSQLSA42\BackupMHCP\Tfs2013_Warehouse_9861355726664789823L.trn
+[Info   @20:42:31.108] RESTORE DATABASE [Tfs2013_Warehouse] FROM DISK = N'\\MH-CLBDSQLSA42\BackupMHCP\Tfs2013_Warehouse_9861355726664789823L.trn' WITH  NORECOVERY, NOUNLOAD, STATS = 10
+[Info   @20:42:31.108] Executing SqlDatabaseRestore.Restore
+[Info   @20:42:31.177] Database Tfs2013_Warehouse. Percent completed: 98%
+[Info   @20:42:31.278] Completed Restore For Database Tfs2013_Warehouse
+[Info   @20:42:31.278] Disk \\MH-CLBDSQLSA42\BackupMHCP\Tfs2013_Warehouse_9861355726664789823L.trn
+[Info   @20:42:31.278] Restore operation completed. Elapsed time: 00:00:00.1701217
+[Info   @20:42:31.278] Exiting SqlDatabaseRestore.Restore
+[Info   @20:42:31.278] Restore database Tfs2013_Warehouse to MH-PRBDSA07 from \\MH-CLBDSQLSA42\BackupMHCP\Tfs2013_Warehouse_9861355735668255056L.trn
+[Info   @20:42:31.278] RESTORE DATABASE [Tfs2013_Warehouse] FROM DISK = N'\\MH-CLBDSQLSA42\BackupMHCP\Tfs2013_Warehouse_9861355735668255056L.trn' WITH  NORECOVERY, NOUNLOAD, STATS = 10
+[Info   @20:42:31.278] Executing SqlDatabaseRestore.Restore
+[Info   @20:42:31.358] Database Tfs2013_Warehouse. Percent completed: 99%
+[Info   @20:42:31.458] Completed Restore For Database Tfs2013_Warehouse
+[Info   @20:42:31.458] Disk \\MH-CLBDSQLSA42\BackupMHCP\Tfs2013_Warehouse_9861355735668255056L.trn
+[Info   @20:42:31.458] Restore operation completed. Elapsed time: 00:00:00.1797676
+[Info   @20:42:31.458] Exiting SqlDatabaseRestore.Restore
+[Info   @20:42:31.458] Restore database Tfs2013_Warehouse to MH-PRBDSA07 from \\MH-CLBDSQLSA42\BackupMHCP\Tfs2013_Warehouse_9861355744666325234L.trn
+[Info   @20:42:31.458] RESTORE DATABASE [Tfs2013_Warehouse] FROM DISK = N'\\MH-CLBDSQLSA42\BackupMHCP\Tfs2013_Warehouse_9861355744666325234L.trn' WITH  RECOVERY, NOUNLOAD, STATS = 10, STOPATMARK = N'TfsMarkTfpt'
+[Info   @20:42:31.458] Executing SqlDatabaseRestore.Restore
+[Info   @20:42:31.495] Database Tfs2013_Warehouse. Percent completed: 100%
+[Info   @20:42:32.321] Completed Restore For Database Tfs2013_Warehouse
+[Info   @20:42:32.321] Disk \\MH-CLBDSQLSA42\BackupMHCP\Tfs2013_Warehouse_9861355744666325234L.trn
+[Info   @20:42:32.321] Restore operation completed. Elapsed time: 00:00:00.8633968
+[Info   @20:42:32.325] Database name: Tfs2013_Warehouse, State: Online
+[Info   @20:42:32.325] Exiting SqlDatabaseRestore.Restore
+[Info   @20:42:32.325] Testing connection to database Tfs2013_Warehouse
+[Info   @20:42:32.328] Adding newly restored database Tfs2013_Warehouse to the backupset.
+[Info   @20:42:32.328] Restoring full backup for database Tfs_ProyectosMigrados to MH-PRBDSA07
+[Info   @20:42:32.333] Executing SqlDatabaseRestore.RelocateFiles
+[Info   @20:42:32.597] Found 2 backup content files.
+[Info   @20:42:32.597] Tfs_ProyectosMigrados is relocated to C:\Program Files\Microsoft SQL Server\MSSQL15.MSSQLSERVER\MSSQL\DATA\Tfs_ProyectosMigrados.mdf.
+[Info   @20:42:32.597] Tfs_ProyectosMigrados_log is relocated to C:\Program Files\Microsoft SQL Server\MSSQL15.MSSQLSERVER\MSSQL\DATA\Tfs_ProyectosMigrados_log.ldf.
+[Info   @20:42:32.597] Exiting SqlDatabaseRestore.RelocateFiles
+[Info   @20:42:32.597] Restore database Tfs_ProyectosMigrados to MH-PRBDSA07 from \\MH-CLBDSQLSA42\BackupMHCP\Tfs_ProyectosMigrados_9861355682142950724F.bak
+[Info   @20:42:32.597] RESTORE DATABASE [Tfs_ProyectosMigrados] FROM DISK = N'\\MH-CLBDSQLSA42\BackupMHCP\Tfs_ProyectosMigrados_9861355682142950724F.bak' WITH  MOVE N'Tfs_ProyectosMigrados' TO N'C:\Program Files\Microsoft SQL Server\MSSQL15.MSSQLSERVER\MSSQL\DATA\Tfs_ProyectosMigrados.mdf', MOVE N'Tfs_ProyectosMigrados_log' TO N'C:\Program Files\Microsoft SQL Server\MSSQL15.MSSQLSERVER\MSSQL\DATA\Tfs_ProyectosMigrados_log.ldf', NORECOVERY, NOUNLOAD, REPLACE, STATS = 10
+[Info   @20:42:32.597] Executing SqlDatabaseRestore.Restore
+[Info   @20:43:10.165] Database Tfs_ProyectosMigrados. Percent completed: 9%
+[Info   @20:43:23.615] Database Tfs_ProyectosMigrados. Percent completed: 18%
+[Info   @20:43:37.167] Database Tfs_ProyectosMigrados. Percent completed: 28%
+[Info   @20:43:49.739] Database Tfs_ProyectosMigrados. Percent completed: 37%
+[Info   @20:43:58.404] Database Tfs_ProyectosMigrados. Percent completed: 47%
+[Info   @20:44:07.924] Database Tfs_ProyectosMigrados. Percent completed: 56%
+[Info   @20:44:18.284] Database Tfs_ProyectosMigrados. Percent completed: 65%
+[Info   @20:44:28.403] Database Tfs_ProyectosMigrados. Percent completed: 75%
+[Info   @20:44:40.185] Database Tfs_ProyectosMigrados. Percent completed: 84%
+[Info   @20:44:50.353] Database Tfs_ProyectosMigrados. Percent completed: 94%
+[Info   @20:44:50.492] Completed Restore For Database Tfs_ProyectosMigrados
+[Info   @20:44:50.492] Disk \\MH-CLBDSQLSA42\BackupMHCP\Tfs_ProyectosMigrados_9861355682142950724F.bak
+[Info   @20:44:50.492] LogicalFileName Tfs_ProyectosMigrados
+[Info   @20:44:50.492] PhysicalFileName C:\Program Files\Microsoft SQL Server\MSSQL15.MSSQLSERVER\MSSQL\DATA\Tfs_ProyectosMigrados.mdf
+[Info   @20:44:50.492] LogicalFileName Tfs_ProyectosMigrados_log
+[Info   @20:44:50.492] PhysicalFileName C:\Program Files\Microsoft SQL Server\MSSQL15.MSSQLSERVER\MSSQL\DATA\Tfs_ProyectosMigrados_log.ldf
+[Info   @20:44:50.492] Restore operation completed. Elapsed time: 00:02:17.8929060
+[Info   @20:44:50.492] Exiting SqlDatabaseRestore.Restore
+[Info   @20:44:50.492] Restoring transaction log backup for database Tfs_ProyectosMigrados to MH-PRBDSA07
+[Info   @20:44:50.496] Restore database Tfs_ProyectosMigrados to MH-PRBDSA07 from \\MH-CLBDSQLSA42\BackupMHCP\Tfs_ProyectosMigrados_9861355705678048362L.trn
+[Info   @20:44:50.496] RESTORE DATABASE [Tfs_ProyectosMigrados] FROM DISK = N'\\MH-CLBDSQLSA42\BackupMHCP\Tfs_ProyectosMigrados_9861355705678048362L.trn' WITH  NORECOVERY, NOUNLOAD, STATS = 10
+[Info   @20:44:50.496] Executing SqlDatabaseRestore.Restore
+[Info   @20:44:50.616] Database Tfs_ProyectosMigrados. Percent completed: 95%
+[Info   @20:44:50.729] Completed Restore For Database Tfs_ProyectosMigrados
+[Info   @20:44:50.729] Disk \\MH-CLBDSQLSA42\BackupMHCP\Tfs_ProyectosMigrados_9861355705678048362L.trn
+[Info   @20:44:50.729] Restore operation completed. Elapsed time: 00:00:00.2329477
+[Info   @20:44:50.729] Exiting SqlDatabaseRestore.Restore
+[Info   @20:44:50.729] Restore database Tfs_ProyectosMigrados to MH-PRBDSA07 from \\MH-CLBDSQLSA42\BackupMHCP\Tfs_ProyectosMigrados_9861355708664441055L.trn
+[Info   @20:44:50.729] RESTORE DATABASE [Tfs_ProyectosMigrados] FROM DISK = N'\\MH-CLBDSQLSA42\BackupMHCP\Tfs_ProyectosMigrados_9861355708664441055L.trn' WITH  NORECOVERY, NOUNLOAD, STATS = 10
+[Info   @20:44:50.729] Executing SqlDatabaseRestore.Restore
+[Info   @20:44:50.851] Database Tfs_ProyectosMigrados. Percent completed: 96%
+[Info   @20:44:50.947] Completed Restore For Database Tfs_ProyectosMigrados
+[Info   @20:44:50.947] Disk \\MH-CLBDSQLSA42\BackupMHCP\Tfs_ProyectosMigrados_9861355708664441055L.trn
+[Info   @20:44:50.947] Restore operation completed. Elapsed time: 00:00:00.2168952
+[Info   @20:44:50.947] Exiting SqlDatabaseRestore.Restore
+[Info   @20:44:50.947] Restore database Tfs_ProyectosMigrados to MH-PRBDSA07 from \\MH-CLBDSQLSA42\BackupMHCP\Tfs_ProyectosMigrados_9861355717667708896L.trn
+[Info   @20:44:50.947] RESTORE DATABASE [Tfs_ProyectosMigrados] FROM DISK = N'\\MH-CLBDSQLSA42\BackupMHCP\Tfs_ProyectosMigrados_9861355717667708896L.trn' WITH  NORECOVERY, NOUNLOAD, STATS = 10
+[Info   @20:44:50.947] Executing SqlDatabaseRestore.Restore
+[Info   @20:44:51.128] Database Tfs_ProyectosMigrados. Percent completed: 97%
+[Info   @20:44:51.204] Completed Restore For Database Tfs_ProyectosMigrados
+[Info   @20:44:51.204] Disk \\MH-CLBDSQLSA42\BackupMHCP\Tfs_ProyectosMigrados_9861355717667708896L.trn
+[Info   @20:44:51.204] Restore operation completed. Elapsed time: 00:00:00.2579306
+[Info   @20:44:51.204] Exiting SqlDatabaseRestore.Restore
+[Info   @20:44:51.204] Restore database Tfs_ProyectosMigrados to MH-PRBDSA07 from \\MH-CLBDSQLSA42\BackupMHCP\Tfs_ProyectosMigrados_9861355726664789823L.trn
+[Info   @20:44:51.204] RESTORE DATABASE [Tfs_ProyectosMigrados] FROM DISK = N'\\MH-CLBDSQLSA42\BackupMHCP\Tfs_ProyectosMigrados_9861355726664789823L.trn' WITH  NORECOVERY, NOUNLOAD, STATS = 10
+[Info   @20:44:51.205] Executing SqlDatabaseRestore.Restore
+[Info   @20:44:51.264] Database Tfs_ProyectosMigrados. Percent completed: 98%
+[Info   @20:44:51.361] Completed Restore For Database Tfs_ProyectosMigrados
+[Info   @20:44:51.361] Disk \\MH-CLBDSQLSA42\BackupMHCP\Tfs_ProyectosMigrados_9861355726664789823L.trn
+[Info   @20:44:51.362] Restore operation completed. Elapsed time: 00:00:00.1572548
+[Info   @20:44:51.362] Exiting SqlDatabaseRestore.Restore
+[Info   @20:44:51.362] Restore database Tfs_ProyectosMigrados to MH-PRBDSA07 from \\MH-CLBDSQLSA42\BackupMHCP\Tfs_ProyectosMigrados_9861355735668255056L.trn
+[Info   @20:44:51.362] RESTORE DATABASE [Tfs_ProyectosMigrados] FROM DISK = N'\\MH-CLBDSQLSA42\BackupMHCP\Tfs_ProyectosMigrados_9861355735668255056L.trn' WITH  NORECOVERY, NOUNLOAD, STATS = 10
+[Info   @20:44:51.362] Executing SqlDatabaseRestore.Restore
+[Info   @20:44:51.403] Database Tfs_ProyectosMigrados. Percent completed: 99%
+[Info   @20:44:51.521] Completed Restore For Database Tfs_ProyectosMigrados
+[Info   @20:44:51.521] Disk \\MH-CLBDSQLSA42\BackupMHCP\Tfs_ProyectosMigrados_9861355735668255056L.trn
+[Info   @20:44:51.521] Restore operation completed. Elapsed time: 00:00:00.1583303
+[Info   @20:44:51.521] Exiting SqlDatabaseRestore.Restore
+[Info   @20:44:51.521] Restore database Tfs_ProyectosMigrados to MH-PRBDSA07 from \\MH-CLBDSQLSA42\BackupMHCP\Tfs_ProyectosMigrados_9861355744666325234L.trn
+[Info   @20:44:51.521] RESTORE DATABASE [Tfs_ProyectosMigrados] FROM DISK = N'\\MH-CLBDSQLSA42\BackupMHCP\Tfs_ProyectosMigrados_9861355744666325234L.trn' WITH  RECOVERY, NOUNLOAD, STATS = 10, STOPATMARK = N'TfsMarkTfpt'
+[Info   @20:44:51.521] Executing SqlDatabaseRestore.Restore
+[Info   @20:44:51.626] Database Tfs_ProyectosMigrados. Percent completed: 100%
+[Info   @20:44:52.922] Completed Restore For Database Tfs_ProyectosMigrados
+[Info   @20:44:52.922] Disk \\MH-CLBDSQLSA42\BackupMHCP\Tfs_ProyectosMigrados_9861355744666325234L.trn
+[Info   @20:44:52.922] Restore operation completed. Elapsed time: 00:00:01.4010075
+[Info   @20:44:52.925] Database name: Tfs_ProyectosMigrados, State: Online
+[Info   @20:44:52.925] Exiting SqlDatabaseRestore.Restore
+[Info   @20:44:52.926] Testing connection to database Tfs_ProyectosMigrados
+[Info   @20:44:52.929] Adding newly restored database Tfs_ProyectosMigrados to the backupset.
+[Info   @20:44:52.929] Restoring full backup for database Tfs_HistoricoDefault to MH-PRBDSA07
+[Info   @20:44:52.934] Executing SqlDatabaseRestore.RelocateFiles
+[Info   @20:44:53.140] Found 2 backup content files.
+[Info   @20:44:53.141] Tfs_DefaultCollection is relocated to C:\Program Files\Microsoft SQL Server\MSSQL15.MSSQLSERVER\MSSQL\DATA\Tfs_HistoricoDefault.mdf.
+[Info   @20:44:53.141] Tfs_DefaultCollection_log is relocated to C:\Program Files\Microsoft SQL Server\MSSQL15.MSSQLSERVER\MSSQL\DATA\Tfs_HistoricoDefault_log.ldf.
+[Info   @20:44:53.141] Exiting SqlDatabaseRestore.RelocateFiles
+[Info   @20:44:53.141] Restore database Tfs_HistoricoDefault to MH-PRBDSA07 from \\MH-CLBDSQLSA42\BackupMHCP\Tfs_HistoricoDefault_9861355682142950724F.bak
+[Info   @20:44:53.141] RESTORE DATABASE [Tfs_HistoricoDefault] FROM DISK = N'\\MH-CLBDSQLSA42\BackupMHCP\Tfs_HistoricoDefault_9861355682142950724F.bak' WITH  MOVE N'Tfs_DefaultCollection' TO N'C:\Program Files\Microsoft SQL Server\MSSQL15.MSSQLSERVER\MSSQL\DATA\Tfs_HistoricoDefault.mdf', MOVE N'Tfs_DefaultCollection_log' TO N'C:\Program Files\Microsoft SQL Server\MSSQL15.MSSQLSERVER\MSSQL\DATA\Tfs_HistoricoDefault_log.ldf', NORECOVERY, NOUNLOAD, REPLACE, STATS = 10
+[Info   @20:44:53.141] Executing SqlDatabaseRestore.Restore
+[Info   @20:47:43.010] Database Tfs_HistoricoDefault. Percent completed: 9%
+[Info   @20:48:26.213] Database Tfs_HistoricoDefault. Percent completed: 18%
+[Info   @20:49:09.845] Database Tfs_HistoricoDefault. Percent completed: 28%
+[Info   @20:50:11.894] Database Tfs_HistoricoDefault. Percent completed: 37%
+[Info   @20:51:23.066] Database Tfs_HistoricoDefault. Percent completed: 47%
+[Info   @20:52:40.865] Database Tfs_HistoricoDefault. Percent completed: 56%
+[Info   @20:53:42.206] Database Tfs_HistoricoDefault. Percent completed: 65%
+[Info   @20:54:32.182] Database Tfs_HistoricoDefault. Percent completed: 75%
+[Info   @20:55:09.002] Database Tfs_HistoricoDefault. Percent completed: 84%
+[Info   @20:55:31.537] Database Tfs_HistoricoDefault. Percent completed: 94%
+[Info   @20:55:31.686] Completed Restore For Database Tfs_HistoricoDefault
+[Info   @20:55:31.686] Disk \\MH-CLBDSQLSA42\BackupMHCP\Tfs_HistoricoDefault_9861355682142950724F.bak
+[Info   @20:55:31.686] LogicalFileName Tfs_DefaultCollection
+[Info   @20:55:31.686] PhysicalFileName C:\Program Files\Microsoft SQL Server\MSSQL15.MSSQLSERVER\MSSQL\DATA\Tfs_HistoricoDefault.mdf
+[Info   @20:55:31.686] LogicalFileName Tfs_DefaultCollection_log
+[Info   @20:55:31.686] PhysicalFileName C:\Program Files\Microsoft SQL Server\MSSQL15.MSSQLSERVER\MSSQL\DATA\Tfs_HistoricoDefault_log.ldf
+[Info   @20:55:31.687] Restore operation completed. Elapsed time: 00:10:38.5165107
+[Info   @20:55:31.687] Exiting SqlDatabaseRestore.Restore
+[Info   @20:55:31.687] Restoring transaction log backup for database Tfs_HistoricoDefault to MH-PRBDSA07
+[Info   @20:55:31.918] Restore database Tfs_HistoricoDefault to MH-PRBDSA07 from \\MH-CLBDSQLSA42\BackupMHCP\Tfs_HistoricoDefault_9861355705678048362L.trn
+[Info   @20:55:31.919] RESTORE DATABASE [Tfs_HistoricoDefault] FROM DISK = N'\\MH-CLBDSQLSA42\BackupMHCP\Tfs_HistoricoDefault_9861355705678048362L.trn' WITH  NORECOVERY, NOUNLOAD, STATS = 10
+[Info   @20:55:31.919] Executing SqlDatabaseRestore.Restore
+[Info   @20:55:31.974] Database Tfs_HistoricoDefault. Percent completed: 95%
+[Info   @20:55:32.062] Completed Restore For Database Tfs_HistoricoDefault
+[Info   @20:55:32.062] Disk \\MH-CLBDSQLSA42\BackupMHCP\Tfs_HistoricoDefault_9861355705678048362L.trn
+[Info   @20:55:32.062] Restore operation completed. Elapsed time: 00:00:00.1430016
+[Info   @20:55:32.062] Exiting SqlDatabaseRestore.Restore
+[Info   @20:55:32.062] Restore database Tfs_HistoricoDefault to MH-PRBDSA07 from \\MH-CLBDSQLSA42\BackupMHCP\Tfs_HistoricoDefault_9861355708664441055L.trn
+[Info   @20:55:32.062] RESTORE DATABASE [Tfs_HistoricoDefault] FROM DISK = N'\\MH-CLBDSQLSA42\BackupMHCP\Tfs_HistoricoDefault_9861355708664441055L.trn' WITH  NORECOVERY, NOUNLOAD, STATS = 10
+[Info   @20:55:32.062] Executing SqlDatabaseRestore.Restore
+[Info   @20:55:32.155] Database Tfs_HistoricoDefault. Percent completed: 96%
+[Info   @20:55:32.245] Completed Restore For Database Tfs_HistoricoDefault
+[Info   @20:55:32.245] Disk \\MH-CLBDSQLSA42\BackupMHCP\Tfs_HistoricoDefault_9861355708664441055L.trn
+[Info   @20:55:32.245] Restore operation completed. Elapsed time: 00:00:00.1834284
+[Info   @20:55:32.245] Exiting SqlDatabaseRestore.Restore
+[Info   @20:55:32.245] Restore database Tfs_HistoricoDefault to MH-PRBDSA07 from \\MH-CLBDSQLSA42\BackupMHCP\Tfs_HistoricoDefault_9861355717667708896L.trn
+[Info   @20:55:32.245] RESTORE DATABASE [Tfs_HistoricoDefault] FROM DISK = N'\\MH-CLBDSQLSA42\BackupMHCP\Tfs_HistoricoDefault_9861355717667708896L.trn' WITH  NORECOVERY, NOUNLOAD, STATS = 10
+[Info   @20:55:32.245] Executing SqlDatabaseRestore.Restore
+[Info   @20:55:32.331] Database Tfs_HistoricoDefault. Percent completed: 97%
+[Info   @20:55:32.426] Completed Restore For Database Tfs_HistoricoDefault
+[Info   @20:55:32.426] Disk \\MH-CLBDSQLSA42\BackupMHCP\Tfs_HistoricoDefault_9861355717667708896L.trn
+[Info   @20:55:32.426] Restore operation completed. Elapsed time: 00:00:00.1807518
+[Info   @20:55:32.426] Exiting SqlDatabaseRestore.Restore
+[Info   @20:55:32.426] Restore database Tfs_HistoricoDefault to MH-PRBDSA07 from \\MH-CLBDSQLSA42\BackupMHCP\Tfs_HistoricoDefault_9861355726664789823L.trn
+[Info   @20:55:32.426] RESTORE DATABASE [Tfs_HistoricoDefault] FROM DISK = N'\\MH-CLBDSQLSA42\BackupMHCP\Tfs_HistoricoDefault_9861355726664789823L.trn' WITH  NORECOVERY, NOUNLOAD, STATS = 10
+[Info   @20:55:32.426] Executing SqlDatabaseRestore.Restore
+[Info   @20:55:32.478] Database Tfs_HistoricoDefault. Percent completed: 98%
+[Info   @20:55:32.560] Completed Restore For Database Tfs_HistoricoDefault
+[Info   @20:55:32.560] Disk \\MH-CLBDSQLSA42\BackupMHCP\Tfs_HistoricoDefault_9861355726664789823L.trn
+[Info   @20:55:32.560] Restore operation completed. Elapsed time: 00:00:00.1335476
+[Info   @20:55:32.560] Exiting SqlDatabaseRestore.Restore
+[Info   @20:55:32.560] Restore database Tfs_HistoricoDefault to MH-PRBDSA07 from \\MH-CLBDSQLSA42\BackupMHCP\Tfs_HistoricoDefault_9861355735668255056L.trn
+[Info   @20:55:32.560] RESTORE DATABASE [Tfs_HistoricoDefault] FROM DISK = N'\\MH-CLBDSQLSA42\BackupMHCP\Tfs_HistoricoDefault_9861355735668255056L.trn' WITH  NORECOVERY, NOUNLOAD, STATS = 10
+[Info   @20:55:32.560] Executing SqlDatabaseRestore.Restore
+[Info   @20:55:32.618] Database Tfs_HistoricoDefault. Percent completed: 99%
+[Info   @20:55:32.699] Completed Restore For Database Tfs_HistoricoDefault
+[Info   @20:55:32.700] Disk \\MH-CLBDSQLSA42\BackupMHCP\Tfs_HistoricoDefault_9861355735668255056L.trn
+[Info   @20:55:32.700] Restore operation completed. Elapsed time: 00:00:00.1395697
+[Info   @20:55:32.700] Exiting SqlDatabaseRestore.Restore
+[Info   @20:55:32.700] Restore database Tfs_HistoricoDefault to MH-PRBDSA07 from \\MH-CLBDSQLSA42\BackupMHCP\Tfs_HistoricoDefault_9861355744666325234L.trn
+[Info   @20:55:32.700] RESTORE DATABASE [Tfs_HistoricoDefault] FROM DISK = N'\\MH-CLBDSQLSA42\BackupMHCP\Tfs_HistoricoDefault_9861355744666325234L.trn' WITH  RECOVERY, NOUNLOAD, STATS = 10, STOPATMARK = N'TfsMarkTfpt'
+[Info   @20:55:32.700] Executing SqlDatabaseRestore.Restore
+[Info   @20:55:32.744] Database Tfs_HistoricoDefault. Percent completed: 100%
+[Info   @20:55:34.065] Completed Restore For Database Tfs_HistoricoDefault
+[Info   @20:55:34.065] Disk \\MH-CLBDSQLSA42\BackupMHCP\Tfs_HistoricoDefault_9861355744666325234L.trn
+[Info   @20:55:34.065] Restore operation completed. Elapsed time: 00:00:01.3657073
+[Info   @20:55:34.069] Database name: Tfs_HistoricoDefault, State: Online
+[Info   @20:55:34.069] Exiting SqlDatabaseRestore.Restore
+[Info   @20:55:34.069] Testing connection to database Tfs_HistoricoDefault
+[Info   @20:55:34.072] Adding newly restored database Tfs_HistoricoDefault to the backupset.
+[Info   @20:55:34.072] Restoring full backup for database Tfs_ProyectosSCRUM to MH-PRBDSA07
+[Info   @20:55:34.076] Executing SqlDatabaseRestore.RelocateFiles
+[Info   @20:55:34.193] Found 2 backup content files.
+[Info   @20:55:34.193] Tfs_ProyectosSCRUM is relocated to C:\Program Files\Microsoft SQL Server\MSSQL15.MSSQLSERVER\MSSQL\DATA\Tfs_ProyectosSCRUM.mdf.
+[Info   @20:55:34.193] Tfs_ProyectosSCRUM_log is relocated to C:\Program Files\Microsoft SQL Server\MSSQL15.MSSQLSERVER\MSSQL\DATA\Tfs_ProyectosSCRUM_log.ldf.
+[Info   @20:55:34.193] Exiting SqlDatabaseRestore.RelocateFiles
+[Info   @20:55:34.193] Restore database Tfs_ProyectosSCRUM to MH-PRBDSA07 from \\MH-CLBDSQLSA42\BackupMHCP\Tfs_ProyectosSCRUM_9861355682142950724F.bak
+[Info   @20:55:34.193] RESTORE DATABASE [Tfs_ProyectosSCRUM] FROM DISK = N'\\MH-CLBDSQLSA42\BackupMHCP\Tfs_ProyectosSCRUM_9861355682142950724F.bak' WITH  MOVE N'Tfs_ProyectosSCRUM' TO N'C:\Program Files\Microsoft SQL Server\MSSQL15.MSSQLSERVER\MSSQL\DATA\Tfs_ProyectosSCRUM.mdf', MOVE N'Tfs_ProyectosSCRUM_log' TO N'C:\Program Files\Microsoft SQL Server\MSSQL15.MSSQLSERVER\MSSQL\DATA\Tfs_ProyectosSCRUM_log.ldf', NORECOVERY, NOUNLOAD, REPLACE, STATS = 10
+[Info   @20:55:34.193] Executing SqlDatabaseRestore.Restore
+[Error  @20:55:34.212] TF401001: The restore operation for database Tfs_ProyectosSCRUM failed. Please refer to the logs for more information 
+[Error  @20:55:34.212] 
+Exception Message: There is insufficient free space on disk volume 'C:\' to create the database. The database requires 92394487808 additional free bytes, while only 20689772544 bytes are available.
+Problems were identified while planning for the RESTORE statement. Previous messages provide details.
+RESTORE DATABASE is terminating abnormally. (type SqlException)
+SQL Exception Class: 16
+SQL Exception Number: 3257
+SQL Exception Procedure: 
+SQL Exception Line Number: 1
+SQL Exception Server: MH-PRBDSA07
+SQL Exception State: 1
+SQL Error(s):
+SQL Error[1]: System.Data.SqlClient.SqlError: Problems were identified while planning for the RESTORE statement. Previous messages provide details.
+    Class: 16
+    Number: 3119
+    Server: MH-PRBDSA07
+    Source: .Net SqlClient Data Provider
+    State: 4
+    Procedure: 
+    Line Number: 1
+SQL Error[2]: System.Data.SqlClient.SqlError: RESTORE DATABASE is terminating abnormally.
+    Class: 16
+    Number: 3013
+    Server: MH-PRBDSA07
+    Source: .Net SqlClient Data Provider
+    State: 1
+    Procedure: 
+    Line Number: 1
+
+Exception Data Dictionary:
+HelpLink.ProdName = Microsoft SQL Server
+HelpLink.EvtSrc = MSSQLServer
+HelpLink.EvtID = 3257
+HelpLink.BaseHelpUrl = http://go.microsoft.com/fwlink
+HelpLink.LinkId = 20476
+
+
+Exception Stack Trace:    at Microsoft.VisualStudio.Services.Configuration.SqlDatabaseBackupRestoreComponent.Execute(String sqlStatement)
+   at Microsoft.VisualStudio.Services.Configuration.SqlDatabaseRestore.Restore(ISqlConnectionInfo connectionInfo)
+   at Microsoft.TeamFoundation.Admin.RestoreUtil.RestoreFull(String serverName, String databaseName, String path, String bakFile, Boolean recovery, Boolean renameExistingDatabases, Int32 minPercent, Int32 maxPercent)
+   at Microsoft.TeamFoundation.Admin.RestoreDatabases.Run(ActivityContext context)
+
+[Info   @20:55:34.213] Restoring full backup for database Tfs_DefaultCollection to MH-PRBDSA07
+[Info   @20:55:34.217] Executing SqlDatabaseRestore.RelocateFiles
+[Info   @20:55:34.280] Found 2 backup content files.
+[Info   @20:55:34.280] Tfs_DefaultCollection is relocated to C:\Program Files\Microsoft SQL Server\MSSQL15.MSSQLSERVER\MSSQL\DATA\Tfs_DefaultCollection.mdf.
+[Info   @20:55:34.280] Tfs_DefaultCollection_log is relocated to C:\Program Files\Microsoft SQL Server\MSSQL15.MSSQLSERVER\MSSQL\DATA\Tfs_DefaultCollection_log.ldf.
+[Info   @20:55:34.280] Exiting SqlDatabaseRestore.RelocateFiles
+[Info   @20:55:34.280] Restore database Tfs_DefaultCollection to MH-PRBDSA07 from \\MH-CLBDSQLSA42\BackupMHCP\Tfs_DefaultCollection_9861355682142950724F.bak
+[Info   @20:55:34.280] RESTORE DATABASE [Tfs_DefaultCollection] FROM DISK = N'\\MH-CLBDSQLSA42\BackupMHCP\Tfs_DefaultCollection_9861355682142950724F.bak' WITH  MOVE N'Tfs_DefaultCollection' TO N'C:\Program Files\Microsoft SQL Server\MSSQL15.MSSQLSERVER\MSSQL\DATA\Tfs_DefaultCollection.mdf', MOVE N'Tfs_DefaultCollection_log' TO N'C:\Program Files\Microsoft SQL Server\MSSQL15.MSSQLSERVER\MSSQL\DATA\Tfs_DefaultCollection_log.ldf', NORECOVERY, NOUNLOAD, REPLACE, STATS = 10
+[Info   @20:55:34.280] Executing SqlDatabaseRestore.Restore
+[Error  @20:55:34.298] TF401001: The restore operation for database Tfs_DefaultCollection failed. Please refer to the logs for more information 
+[Error  @20:55:34.298] 
+Exception Message: There is insufficient free space on disk volume 'C:\' to create the database. The database requires 314436288512 additional free bytes, while only 20689772544 bytes are available.
+Problems were identified while planning for the RESTORE statement. Previous messages provide details.
+RESTORE DATABASE is terminating abnormally. (type SqlException)
+SQL Exception Class: 16
+SQL Exception Number: 3257
+SQL Exception Procedure: 
+SQL Exception Line Number: 1
+SQL Exception Server: MH-PRBDSA07
+SQL Exception State: 1
+SQL Error(s):
+SQL Error[1]: System.Data.SqlClient.SqlError: Problems were identified while planning for the RESTORE statement. Previous messages provide details.
+    Class: 16
+    Number: 3119
+    Server: MH-PRBDSA07
+    Source: .Net SqlClient Data Provider
+    State: 4
+    Procedure: 
+    Line Number: 1
+SQL Error[2]: System.Data.SqlClient.SqlError: RESTORE DATABASE is terminating abnormally.
+    Class: 16
+    Number: 3013
+    Server: MH-PRBDSA07
+    Source: .Net SqlClient Data Provider
+    State: 1
+    Procedure: 
+    Line Number: 1
+
+Exception Data Dictionary:
+HelpLink.ProdName = Microsoft SQL Server
+HelpLink.EvtSrc = MSSQLServer
+HelpLink.EvtID = 3257
+HelpLink.BaseHelpUrl = http://go.microsoft.com/fwlink
+HelpLink.LinkId = 20476
+
+
+Exception Stack Trace:    at Microsoft.VisualStudio.Services.Configuration.SqlDatabaseBackupRestoreComponent.Execute(String sqlStatement)
+   at Microsoft.VisualStudio.Services.Configuration.SqlDatabaseRestore.Restore(ISqlConnectionInfo connectionInfo)
+   at Microsoft.TeamFoundation.Admin.RestoreUtil.RestoreFull(String serverName, String databaseName, String path, String bakFile, Boolean recovery, Boolean renameExistingDatabases, Int32 minPercent, Int32 maxPercent)
+   at Microsoft.TeamFoundation.Admin.RestoreDatabases.Run(ActivityContext context)
+
+[Info   @20:55:34.298] Restoring full backup for database Tfs_Configuration to MH-PRBDSA07
+[Info   @20:55:34.302] Executing SqlDatabaseRestore.RelocateFiles
+[Info   @20:55:34.369] Found 2 backup content files.
+[Info   @20:55:34.369] Tfs_Configuration is relocated to C:\Program Files\Microsoft SQL Server\MSSQL15.MSSQLSERVER\MSSQL\DATA\Tfs_Configuration.mdf.
+[Info   @20:55:34.369] Tfs_Configuration_log is relocated to C:\Program Files\Microsoft SQL Server\MSSQL15.MSSQLSERVER\MSSQL\DATA\Tfs_Configuration_log.ldf.
+[Info   @20:55:34.369] Exiting SqlDatabaseRestore.RelocateFiles
+[Info   @20:55:34.369] Restore database Tfs_Configuration to MH-PRBDSA07 from \\MH-CLBDSQLSA42\BackupMHCP\Tfs_Configuration_9861355682142950724F.bak
+[Info   @20:55:34.369] RESTORE DATABASE [Tfs_Configuration] FROM DISK = N'\\MH-CLBDSQLSA42\BackupMHCP\Tfs_Configuration_9861355682142950724F.bak' WITH  MOVE N'Tfs_Configuration' TO N'C:\Program Files\Microsoft SQL Server\MSSQL15.MSSQLSERVER\MSSQL\DATA\Tfs_Configuration.mdf', MOVE N'Tfs_Configuration_log' TO N'C:\Program Files\Microsoft SQL Server\MSSQL15.MSSQLSERVER\MSSQL\DATA\Tfs_Configuration_log.ldf', NORECOVERY, NOUNLOAD, REPLACE, STATS = 10
+[Info   @20:55:34.369] Executing SqlDatabaseRestore.Restore
+[Info   @20:56:08.954] Database Tfs_Configuration. Percent completed: 9%
+[Info   @20:56:18.400] Database Tfs_Configuration. Percent completed: 18%
+[Info   @20:56:27.613] Database Tfs_Configuration. Percent completed: 28%
+[Info   @20:56:37.452] Database Tfs_Configuration. Percent completed: 37%
+[Info   @20:56:51.787] Database Tfs_Configuration. Percent completed: 47%
+[Info   @20:57:02.762] Database Tfs_Configuration. Percent completed: 56%
+[Info   @20:57:22.463] Database Tfs_Configuration. Percent completed: 65%
+[Info   @20:57:35.888] Database Tfs_Configuration. Percent completed: 75%
+[Info   @20:57:55.804] Database Tfs_Configuration. Percent completed: 84%
+[Info   @20:58:16.325] Database Tfs_Configuration. Percent completed: 94%
+[Info   @20:58:16.628] Completed Restore For Database Tfs_Configuration
+[Info   @20:58:16.628] Disk \\MH-CLBDSQLSA42\BackupMHCP\Tfs_Configuration_9861355682142950724F.bak
+[Info   @20:58:16.628] LogicalFileName Tfs_Configuration
+[Info   @20:58:16.628] PhysicalFileName C:\Program Files\Microsoft SQL Server\MSSQL15.MSSQLSERVER\MSSQL\DATA\Tfs_Configuration.mdf
+[Info   @20:58:16.628] LogicalFileName Tfs_Configuration_log
+[Info   @20:58:16.628] PhysicalFileName C:\Program Files\Microsoft SQL Server\MSSQL15.MSSQLSERVER\MSSQL\DATA\Tfs_Configuration_log.ldf
+[Info   @20:58:16.628] Restore operation completed. Elapsed time: 00:02:42.2543672
+[Info   @20:58:16.628] Exiting SqlDatabaseRestore.Restore
+[Info   @20:58:16.628] Restoring transaction log backup for database Tfs_Configuration to MH-PRBDSA07
+[Info   @20:58:16.636] Restore database Tfs_Configuration to MH-PRBDSA07 from \\MH-CLBDSQLSA42\BackupMHCP\Tfs_Configuration_9861355705678048362L.trn
+[Info   @20:58:16.636] RESTORE DATABASE [Tfs_Configuration] FROM DISK = N'\\MH-CLBDSQLSA42\BackupMHCP\Tfs_Configuration_9861355705678048362L.trn' WITH  NORECOVERY, NOUNLOAD, STATS = 10
+[Info   @20:58:16.636] Executing SqlDatabaseRestore.Restore
+[Info   @20:58:19.453] Database Tfs_Configuration. Percent completed: 100%
+[Info   @20:58:22.362] Database Tfs_Configuration. Percent completed: 99%
+[Info   @20:58:25.100] Database Tfs_Configuration. Percent completed: 99%
+[Info   @20:58:28.749] Database Tfs_Configuration. Percent completed: 98%
+[Info   @20:58:31.889] Database Tfs_Configuration. Percent completed: 98%
+[Info   @20:58:34.761] Database Tfs_Configuration. Percent completed: 97%
+[Info   @20:58:37.771] Database Tfs_Configuration. Percent completed: 97%
+[Info   @20:58:41.079] Database Tfs_Configuration. Percent completed: 96%
+[Info   @20:58:44.810] Database Tfs_Configuration. Percent completed: 96%
+[Info   @20:58:47.948] Database Tfs_Configuration. Percent completed: 95%
+[Info   @20:58:50.595] Completed Restore For Database Tfs_Configuration
+[Info   @20:58:50.595] Disk \\MH-CLBDSQLSA42\BackupMHCP\Tfs_Configuration_9861355705678048362L.trn
+[Info   @20:58:50.595] Restore operation completed. Elapsed time: 00:00:33.9587070
+[Info   @20:58:50.595] Exiting SqlDatabaseRestore.Restore
+[Info   @20:58:50.595] Restore database Tfs_Configuration to MH-PRBDSA07 from \\MH-CLBDSQLSA42\BackupMHCP\Tfs_Configuration_9861355708664441055L.trn
+[Info   @20:58:50.595] RESTORE DATABASE [Tfs_Configuration] FROM DISK = N'\\MH-CLBDSQLSA42\BackupMHCP\Tfs_Configuration_9861355708664441055L.trn' WITH  NORECOVERY, NOUNLOAD, STATS = 10
+[Info   @20:58:50.595] Executing SqlDatabaseRestore.Restore
+[Info   @20:58:50.785] Database Tfs_Configuration. Percent completed: 97%
+[Info   @20:58:50.785] Database Tfs_Configuration. Percent completed: 96%
+[Info   @20:58:51.005] Completed Restore For Database Tfs_Configuration
+[Info   @20:58:51.005] Disk \\MH-CLBDSQLSA42\BackupMHCP\Tfs_Configuration_9861355708664441055L.trn
+[Info   @20:58:51.005] Restore operation completed. Elapsed time: 00:00:00.4101748
+[Info   @20:58:51.005] Exiting SqlDatabaseRestore.Restore
+[Info   @20:58:51.005] Restore database Tfs_Configuration to MH-PRBDSA07 from \\MH-CLBDSQLSA42\BackupMHCP\Tfs_Configuration_9861355717667708896L.trn
+[Info   @20:58:51.006] RESTORE DATABASE [Tfs_Configuration] FROM DISK = N'\\MH-CLBDSQLSA42\BackupMHCP\Tfs_Configuration_9861355717667708896L.trn' WITH  NORECOVERY, NOUNLOAD, STATS = 10
+[Info   @20:58:51.006] Executing SqlDatabaseRestore.Restore
+[Info   @20:58:51.112] Database Tfs_Configuration. Percent completed: 99%
+[Info   @20:58:51.112] Database Tfs_Configuration. Percent completed: 97%
+[Info   @20:58:51.347] Completed Restore For Database Tfs_Configuration
+[Info   @20:58:51.347] Disk \\MH-CLBDSQLSA42\BackupMHCP\Tfs_Configuration_9861355717667708896L.trn
+[Info   @20:58:51.347] Restore operation completed. Elapsed time: 00:00:00.3413276
+[Info   @20:58:51.347] Exiting SqlDatabaseRestore.Restore
+[Info   @20:58:51.347] Restore database Tfs_Configuration to MH-PRBDSA07 from \\MH-CLBDSQLSA42\BackupMHCP\Tfs_Configuration_9861355726664789823L.trn
+[Info   @20:58:51.347] RESTORE DATABASE [Tfs_Configuration] FROM DISK = N'\\MH-CLBDSQLSA42\BackupMHCP\Tfs_Configuration_9861355726664789823L.trn' WITH  NORECOVERY, NOUNLOAD, STATS = 10
+[Info   @20:58:51.347] Executing SqlDatabaseRestore.Restore
+[Info   @20:58:51.481] Database Tfs_Configuration. Percent completed: 100%
+[Info   @20:58:51.481] Database Tfs_Configuration. Percent completed: 99%
+[Info   @20:58:51.483] Database Tfs_Configuration. Percent completed: 98%
+[Info   @20:58:51.726] Completed Restore For Database Tfs_Configuration
+[Info   @20:58:51.726] Disk \\MH-CLBDSQLSA42\BackupMHCP\Tfs_Configuration_9861355726664789823L.trn
+[Info   @20:58:51.726] Restore operation completed. Elapsed time: 00:00:00.3788548
+[Info   @20:58:51.726] Exiting SqlDatabaseRestore.Restore
+[Info   @20:58:51.726] Restore database Tfs_Configuration to MH-PRBDSA07 from \\MH-CLBDSQLSA42\BackupMHCP\Tfs_Configuration_9861355735668255056L.trn
+[Info   @20:58:51.726] RESTORE DATABASE [Tfs_Configuration] FROM DISK = N'\\MH-CLBDSQLSA42\BackupMHCP\Tfs_Configuration_9861355735668255056L.trn' WITH  NORECOVERY, NOUNLOAD, STATS = 10
+[Info   @20:58:51.726] Executing SqlDatabaseRestore.Restore
+[Info   @20:58:51.865] Database Tfs_Configuration. Percent completed: 100%
+[Info   @20:58:51.866] Database Tfs_Configuration. Percent completed: 99%
+[Info   @20:58:52.091] Completed Restore For Database Tfs_Configuration
+[Info   @20:58:52.091] Disk \\MH-CLBDSQLSA42\BackupMHCP\Tfs_Configuration_9861355735668255056L.trn
+[Info   @20:58:52.091] Restore operation completed. Elapsed time: 00:00:00.3654858
+[Info   @20:58:52.091] Exiting SqlDatabaseRestore.Restore
+[Info   @20:58:52.091] Restore database Tfs_Configuration to MH-PRBDSA07 from \\MH-CLBDSQLSA42\BackupMHCP\Tfs_Configuration_9861355744666325234L.trn
+[Info   @20:58:52.091] RESTORE DATABASE [Tfs_Configuration] FROM DISK = N'\\MH-CLBDSQLSA42\BackupMHCP\Tfs_Configuration_9861355744666325234L.trn' WITH  RECOVERY, NOUNLOAD, STATS = 10, STOPATMARK = N'TfsMarkTfpt'
+[Info   @20:58:52.091] Executing SqlDatabaseRestore.Restore
+[Info   @20:58:52.341] Database Tfs_Configuration. Percent completed: 100%
+[Info   @20:58:52.342] Database Tfs_Configuration. Percent completed: 100%
+[Info   @20:58:52.345] Database Tfs_Configuration. Percent completed: 100%
+[Info   @20:58:53.918] Completed Restore For Database Tfs_Configuration
+[Info   @20:58:53.918] Disk \\MH-CLBDSQLSA42\BackupMHCP\Tfs_Configuration_9861355744666325234L.trn
+[Info   @20:58:53.918] Restore operation completed. Elapsed time: 00:00:01.8261167
+[Info   @20:58:53.922] Database name: Tfs_Configuration, State: Online
+[Info   @20:58:53.922] Exiting SqlDatabaseRestore.Restore
+[Info   @20:58:53.922] Testing connection to database Tfs_Configuration
+[Info   @20:58:53.926] Adding newly restored database Tfs_Configuration to the backupset.
+[Info   @20:58:53.926] Adding new backup set Id 9861355817323186951
+[Info   @20:58:53.984] You may need to purge the version control file cache on all Azure DevOps ATs and all Azure DevOps proxy servers that service the Azure DevOps instance prior to putting the TPC back online. For more information, see this KB article https://support.microsoft.com/?kbid=2025763 
+[Info   @20:58:53.984] Node returned: Error
+[Error  @20:58:53.985] The restore operation failed for one or more databases.
+[Info   @20:58:53.985] Completed RestoreDatabases: Error
+[Info   @20:58:53.985] -----------------------------------------------------
+[Info   @20:58:53.986] Execution results:
+[Info   @20:58:53.986] Overall result: Failure
+[Info   @20:58:53.986] Nodes completed: 2
+[Info   @20:58:53.986] Nodes succeeded: 1
+[Info   @20:58:53.986] Nodes skipped: 0
+[Info   @20:58:53.986] Nodes with errors: 1
+[Info   @20:58:53.986] Nodes with warnings: 0
+[Info   @20:58:53.986] Number of error messages: 3
+[Info   @20:58:53.986] Number of warning messages: 0
+[Info   @20:58:53.986] Number of info messages: 1
+[Error  @20:58:53.988] Activity failed.
+[Info   @20:58:53.988] Activity failed and there is no handling of the failure such as rollback
+[Info   @20:58:53.988] Ending activity...
+[Info   @20:58:53.988] Gathering results ...
+[Info   @20:58:53.991] Done.
