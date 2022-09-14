@@ -1,0 +1,9 @@
+--DESCARGA POSTMAN
+https://www.postman.com/downloads/
+
+--DESCARGA GIT
+https://git-scm.com/downloads
+
+--registro GITHUB
+https://github.com/
+
